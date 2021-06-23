@@ -1,0 +1,39 @@
+
+;; ----- smex-history -----
+(
+ uncomment-region
+ comment-region
+ python-indent-shift-left
+ indent-relative-first-indent-point
+ indent-relative
+ indent-region
+ shell
+)
+
+;; ----- smex-data -----
+(
+ (elpy-format-code . 1)
+ (list-packages . 4)
+ (shell . 194)
+ (python-shell-send-file . 1)
+ (run-python . 4)
+ (ein:run . 2)
+ (org-reload . 1)
+ (package-install . 3)
+ (flymd-flyit . 1)
+ (markdown-other-window . 4)
+ (mp-preview . 3)
+ (comment-region . 193)
+ (global-set-key . 3)
+ (uncomment-region . 152)
+ (untabify . 15)
+ (whitespace-mode . 2)
+ (lisp-mode . 1)
+ (tabify . 3)
+ (customize-group . 1)
+ (python-indent-shift-right . 4)
+ (indent-region . 4)
+ (indent-relative . 1)
+ (indent-relative-first-indent-point . 1)
+ (python-indent-shift-left . 7)
+)

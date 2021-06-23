@@ -1,0 +1,327 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/thomas/Desktop/GodotProjects/Modules/" . "godot_voxel/")
+ ("/home/thomas/Desktop/GodotProjects/" . "Modules/")
+ ("/home/thomas/Desktop/School/DiscreteStructures/p03/" . "Submission/")
+ ("/home/thomas/Desktop/pgen/res/" . "shaders/")
+ ("/home/thomas/Desktop/pgen/" . "res/")
+ ("/home/thomas/Desktop/School/DiscreteStructures/" . "p03/")
+ ("/home/thomas/Desktop/ChatBot/" . "src/")
+ ("/home/thomas/Desktop/School/programmingI/block2/" . "old/")
+ ("/home/thomas/Desktop/School/programmingI/" . "block2/")
+ ("/home/thomas/Desktop/School/" . "DiscreteStructures/")
+ ("/home/thomas/Desktop/AncientTechGame/" . "scripts/")
+ ("/home/thomas/Desktop/MagicGame/res/" . "shaders/")
+ ("/home/thomas/Desktop/MagicGame/" . "src/")
+ ("/home/thomas/Desktop/Projects/godot-4.0.0/core/" . "math/")
+ ("/home/thomas/Desktop/Projects/godot-4.0.0/servers/" . "rendering/")
+ ("/home/thomas/Desktop/Projects/godot-4.0.0/" . "core/")
+ ("/home/thomas/Desktop/Projects/" . "godot-4.0.0/")
+ ("/home/thomas/OpenGL/" . "tutorial02_red_triangle/")
+ ("/home/thomas/ogl-master/" . "tutorial01_first_window/")
+ ("/home/thomas/Desktop/AuthenticBodies/" . "main/")
+ ("/home/thomas/Desktop/Example Networks/" . "stylegan/")
+ ("/home/thomas/Desktop/HoloGAN/" . "tools/")
+ ("/home/thomas/Desktop/InfoGAN-CR-master/InfoGAN-CR_3D_teapot/" . "gan/")
+ ("/home/thomas/Desktop/InfoGAN-CR-master/" . "InfoGAN-CR_3D_teapot/")
+ ("/home/thomas/Desktop/auto-encoder/outputs/" . "0.001_2_25_1e-06_1/")
+ ("/home/thomas/Desktop/Little Planets/Little Planets/" . "Assets/")
+ ("/home/thomas/Desktop/Little Planets/" . "Little Planets/")
+ ("/home/thomas/Desktop/projects/Language-Evolution-Simulation/" . "main/")
+ ("/home/thomas/Desktop/Procedural-Generation/" . "main/")
+ ("/home/thomas/Desktop/auto-encoder/main/" . "experiments/")
+ ("/home/thomas/Desktop/Language-Evolution-Simulation/" . "main/")
+ ("/home/thomas/Desktop/LES/" . "main/")
+ ("/home/thomas/Desktop/mal/" . "python.3/")
+ ("/home/thomas/Desktop/tilona/" . "tilona/")
+ ("/home/thomas/Desktop/auto-encoder/datasets/" . "MITMATRICES/")
+ ("/home/thomas/Desktop/auto-encoder/" . "main/")
+ ("/home/thomas/Desktop/projects/feed_forward/" . "main/")
+ ("/home/thomas/Desktop/projects/" . "custom_utils/")
+ ("/home/thomas/Desktop/feed_forward/outputs/" . "console_logs/")
+ ("/home/thomas/Desktop/Magic game/" . "Research/")
+ ("/home/thomas/Desktop/feed_forward/" . "main/")
+ ("/home/thomas/Desktop/authentic-bodies/datasets/rendered_chairs/" . "test/")
+ ("/home/thomas/Desktop/authentic-bodies/datasets/" . "rendered_chairs/")
+ ("/home/" . "thomas/")
+ ("/" . "home/")
+ ("/home/thomas/Desktop/authentic-bodies/" . "main/")
+ ("/home/thomas/Desktop/" . "auto-encoder/")
+ ("/home/thomas/" . "Desktop/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/thomas/Desktop/auto-encoder/main/"
+ "/home/thomas/Desktop/auto-encoder/main/experiments/"
+ "/home/thomas/Desktop/auto-encoder/"
+ "/home/thomas/Desktop/GodotProjects/Modules/godot_voxel/"
+ "/home/thomas/Desktop/"
+ "/home/thomas/Desktop/pgen/res/shaders/"
+ "/home/thomas/Desktop/pgen/src/"
+ "/home/thomas/Desktop/School/DiscreteStructures/p03/Submission/"
+ "/home/thomas/Desktop/School/DiscreteStructures/p03/"
+ "/home/thomas/.emacs.d/"
+ "/home/thomas/Desktop/pgen/"
+ "/home/thomas/Desktop/pgen/build/"
+ "/home/thomas/Desktop/School/DiscreteStructures/p02/"
+ "/home/thomas/Desktop/ChatBot/src/"
+ "/home/thomas/Desktop/School/DiscreteStructures/"
+ "/home/thomas/Desktop/School/programmingI/block2/"
+ "/home/thomas/Desktop/MagicGame/src/"
+ "/home/thomas/Desktop/School/programmingI/block2/old/"
+ "/home/thomas/Desktop/auto-encoder/outputs/"
+ "/home/thomas/Desktop/AncientTechGame/scripts/"
+ "/home/thomas/Desktop/MagicGame/res/shaders/"
+ "/home/thomas/Desktop/Projects/godot-4.0.0/core/math/"
+ "/home/thomas/Desktop/Projects/godot-4.0.0/servers/"
+ "/home/thomas/OpenGL/tutorial02_red_triangle/"
+ "/home/thomas/Desktop/OpenGlTests/"
+ "/home/thomas/Desktop/test/"
+ "/home/thomas/OpenGL/tutorial01_first_window/"
+ "/home/thomas/ogl-master/tutorial01_first_window/"
+ "/home/thomas/Desktop/AuthenticBodies/main/"
+ "/home/thomas/Desktop/AuthenticBodies/"
+ "/home/thomas/Desktop/BeginningProgramming/"
+ "/home/thomas/Desktop/Example Networks/stylegan/"
+ "/home/thomas/Desktop/Example Networks/progressive_growing_of_gans/"
+ "/home/thomas/Desktop/HoloGAN/tools/"
+ "/home/thomas/Desktop/HoloGAN/"
+ "/home/thomas/Desktop/InfoGAN-CR-master/"
+ "/home/thomas/Desktop/ALAE-master/"
+ "/home/thomas/"
+ "/home/thomas/Desktop/auto-encoder/datasets/MITMATRICES/"
+ "/home/thomas/Desktop/projects/custom_utils/"
+ "/home/thomas/Desktop/auto-encoder/outputs/0.001_2_25_1e-06_1/"
+ "/home/thomas/Desktop/Procedural-Generation/main/"
+ "/home/thomas/Desktop/Procedural-Generation/assets/"
+ "/home/thomas/Desktop/Little Planets/Little Planets/Assets/"
+ "/home/thomas/Desktop/Little Planets/Little Planets/"
+ "/home/thomas/Desktop/Magic game/Research/"
+ "/home/thomas/Desktop/auto-encoder/datasets/premixed/"
+ "/home/thomas/Desktop/projects/Language-Evolution-Simulation/main/"
+ "/home/thomas/Desktop/Procedural-Generation/"
+ "/home/thomas/Desktop/Magic game/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "main.py"
+ "class_rec.py"
+ "autoencoder.py"
+ "_autoencoder.py"
+ "utils.py"
+ "derelict.py"
+ "_main.py"
+ "_MLP.py"
+ "requirements.txt"
+ "_utils.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/thomas/Desktop/auto-encoder/main/" (24785 21398 799833 891000) "../" "__pycache__/" "main.py" "experiments/" "autoencoder.py" "utils.py" "_autoencoder.py" "./")
+
+ ("/home/thomas/" (24787 43799 122993 564000) "../" "#!home!thomas!Downloads!NVIDIA-Linux-x86_64-450.57.run#" ".gconf/" ".quicklisp/" ".ssh/" ".gphoto/" ".wget-hsts" ".mal-history" ".PyCharmCE2019.2/" ".conda/" "#!home!thomas!.emacs.d!ido.last#" "Miniconda3-latest-Linux-x86_64.sh" "Public/" "packages-microsoft-prod.deb" "test" ".ipython/" ".googleearth/" ".putty/" ".mono/" ".ICEauthority" ".gimp-2.8/" ".nv/" ".thunderbird/" ".emacs.d/" ".mozilla/" "Downloads/" ".m2/" ".gtkrc-2.0" ".clojure/" "Music/" ".java/" ".config/" ".condarc" "Pictures/" "blender_addons/" ".keras/" ".bash_logout" ".thumbnails/" "Templates/" "#!home!thomas!Desktop!Example Networks!progressive_growing_of_gans!networks.py#" ".defaults-0.1.0.ini" ".profile" ".gnome/" ".local/" ".PyCharmCE2019.1/" "Videos/" ".vimrc" ".astropy/" ".vscode/" "NVIDIA_CUDA-10.0_Samples/" ".viminfo" ".bash_aliases" ".PyCharmCE2018.3/" ".isos/" "OpenGL/" "Sounds/" ".sbclrc" "Unity-2019.1.0f2/" "re" "java_error_in_PYCHARM_5678.log" ".slime/" "linux-install-1.10.1.561.sh" "miniconda3/" ".python_history" ".bashrc-anaconda3.bak" ".emacs_saves/" "NVIDIA_CUDA-11.0_Samples/" "winehq.key" ".cache/" "examples.desktop" ".mysql_history" ".kde/" "etemp/" ".wine/" ".zoom/" ".docker/" "#!home!thomas!Desktop!notes!Intro_to_logic.txt#" "Desktop/" "#!home!thomas!OpenGL!tutorial02_red_triangle!tutorial02.cpp#" "#!home!thomas!Desktop!codegolf.txt#" "snap/" ".pki/" "Documents/" ".gitconfig" ".sudo_as_admin_successful" ".gnupg/" ".markdownNavigator/" "./" ".bash_history" "#!home!thomas!Desktop!School!DiscreteStructures!p02!report.txt#" "sys" "VirtualBox VMs/" ".bashrc" ".pylint.d/")
+
+ ("/home/thomas/Desktop/auto-encoder/main/experiments/" (24783 55636 101219 93000) "../" "concatclass.py" "class_rec.py" "oneclass.py" "control_models.py" "./")
+
+ ("/home/thomas/Desktop/auto-encoder/" (24782 52773 498312 602000) "../" ".gitignore" "env.yml" "README.md" "datasets/" "outputs/" "requirements.txt" ".git/" "./" "main/")
+
+ ("/home/thomas/Desktop/" (24778 63570 225887 588000) "../" "Projects/" "Female Locomotion Pack (1)/" "OS_ISOS/" "School/" "Hyria/" "pgen/" "Presentation/" "auto-encoder/" "poisson-disc-sampling-8c1213c1d4817d571acaafd0239ec97f19c7e7dc.zip" "putty.exe" "GodotProjects/" "codegolf.txt" "Scents/" "junk/" "PoissonDiscSampling.gd" "Grant Proposal/" "Female Locomotion Pack (1).zip" "balenaEtcher-1.5.120-x64.AppImage" "OpenGLProjects/" "ChatBot/" "bowgirl.glb" "Godot_v3.2.1-stable_x11.64" "./")
+
+ ("/home/thomas/Desktop/GodotProjects/Modules/godot_voxel/" (24736 37252 0 0) "../" "register_types.h" ".readthedocs.yml" "streams/" "nuget.config" "storage/" ".gitignore" "terrain/" "voxel.natvis" "config.py" "constants/" "meshers/" "tests/" "LICENSE.md" "README.md" "thirdparty/" "doc/" "generators/" "edition/" "server/" ".github/" "register_types.cpp" "util/" "./" "SCsub" "editor/")
+
+ ("/home/thomas/Desktop/GodotProjects/Modules/" (24743 64250 691222 601000) "../" "godot_voxel/" "./")
+
+ ("/home/thomas/Desktop/GodotProjects/" (24743 63709 285226 670000) "../" "Modules/" "godot/" "./" "MyWorld/")
+
+ ("/home/thomas/Desktop/pgen/" (24719 26844 447596 175000) "../" ".gitmodules" ".gitignore" "CMakeLists.txt" "lib/" "build/" "src/" "res/" "README.md" ".git/" "./")
+
+ ("/home/thomas/Desktop/pgen/src/" (24719 27142 946597 208000) "../" "main.cpp" "test.h" "ShaderLib.cpp" "./" "ShaderLib.h")
+
+ ("/home/thomas/Desktop/auto-encoder/outputs/" (24676 35750 244833 500000) "../" "evaluation.txt" "true_pred.txt" "oneclass/" "OLD/" "controls/" "results.txt" "multiclass_confusion.png" "./")
+
+ ("/home/thomas/Desktop/School/DiscreteStructures/p02/" (24650 59868 177979 483000) "../" "output.dat" "Set.o" "p02" "temp.cpp" "p02.txt" "p02.cpp" "p02make" "p02.o" "input.dat" "a.out" "Set.h" "./" "Set.cpp")
+
+ ("/home/thomas/Desktop/pgen/build/" (24698 29191 219375 475000) "../" "Makefile" "pgen" "cmake_install.cmake" "lib/" "CMakeFiles/" "./" "CMakeCache.txt")
+
+ ("/home/thomas/.emacs.d/" (24700 43371 873052 726000) "../" "elpa/" "smex-items" "init.el" "ido.last" "./" "auto-save-list/")
+
+ ("/home/thomas/Desktop/pgen/res/shaders/" (24698 29571 800120 935000) "../" "Basic.shader" "./" "two.shader")
+
+ ("/home/thomas/Desktop/School/DiscreteStructures/p03/" (24700 43440 548777 421000) "../" "Submission/" "p03.cpp" "Submission.zip" "unsorted.dat" "sorted2.dat" "time1.dat" "sorted1.dat" "p03" "time2.dat" "./")
+
+ ("/home/thomas/Desktop/School/DiscreteStructures/p03/Submission/" (24700 43403 996654 325000) "../" "Results_Graph.xlsx" "Results_Graph.pdf" "unsorted.dat" "writeup.txt" "sorted2.dat" "time1.dat" "sorted1.dat" "time2.dat" "./")
+
+ ("/home/thomas/Desktop/School/DiscreteStructures/" (24699 45509 475540 677000) "../" "p01/" "p02/" "BiweeklyReport.docx" "A0_firstname_lastname.docx" "p03/" "./")
+
+ ("/home/thomas/Desktop/pgen/res/" (24449 3890 550928 0) "../" "shaders/" "./")
+
+ ("/home/" (23637 3866 270153 664000) "../" "thomas/" ".directory" "./")
+
+ ("/home/thomas/Desktop/pgen/lib/" (24444 57289 756392 0) "../" "glew-2.1.0/" "glfw/" "glew/" "./")
+
+ ("/home/thomas/Desktop/School/DiscreteStructures/p01/" (24650 36357 70536 522000) "../" "p01.txt" "p01.cpp" "a.out" "a01.pdf" "./")
+
+ ("/home/thomas/Desktop/ChatBot/src/" (24640 28407 110563 16000) "../" "main.py" "./")
+
+ ("/home/thomas/Desktop/School/" (24620 32034 254986 596000) "../" "ComputerOrganization/" "OLD/" "Statistics/" "DiscreteStructures/" "./")
+
+ ("/home/thomas/Desktop/ChatBot/" (24640 5999 104241 862000) "../" ".gitignore" "src/" "res/" "README.md" "datasets/" "requirements.txt" ".git/" "./")
+
+ ("/home/thomas/Desktop/auto-encoder/datasets/" (24530 35546 574555 944000) "../" "shift_1percent.mat" "premixed/" "MITMATRICES/" "normalized/" "std_1percent.mat" "./")
+
+ ("/home/thomas/Desktop/School/programmingI/block2/" (24522 46831 948383 681000) "../" "Elvis2.fil" "Elvis.cpp" "wm157  btaiyy.txt" "old/" "Elvis.fil" "a.out" "temp.py" "./")
+
+ ("/home/thomas/Desktop/MagicGame/src/" (24521 11070 586026 188000) "../" "main.cpp" "LoadShader.h" "ShaderManager.cpp" "./")
+
+ ("/home/thomas/Desktop/School/programmingI/block2/old/" (24503 13016 578738 772000) "../" "compute_gross_pay.cpp" "compute_federal_tax.cpp" "ISBN.txt" "daysoftheweek.txt" "dayoftheweek.cpp" "gradeexm.pdf" "housepayment.cpp" "house-payment.pdf" "progI_midterm.pdf" "payment.txt" "payroll.cpp" "payroll.fil" "./" "compute_insurance.cpp" "disp.pdf")
+
+ ("/home/thomas/Desktop/junk/" (24466 22701 696064 658000) "../" "virtual_win_10/" "MATH 2743 - Spring 2019 - Sage Homework -- Sage.pdf" "chauhan2015anomaly.pdf" "test.py" "BP Test1 Su20.odt" "emacs-settings/" "Chem I Learning Reflection 1 Sp20.pdf" "python-mode-master.zip" "-home-thomas-Desktop-raymarching-Assets-.txt" "nonconvexweb.jar" "lambda.txt" "python-mode.el-6.2.3.tar.gz" "nonconvexweb_source_from_Procyon/" "uco-telework-covid19-agreement (1).pdf" "python-mode.el-6.2.3/" "BP Test1 Su20.pdf" "MITMATRICES/" "Chem I Learning Reflection 2 Spring.docx" "Poster_template (3)-edits.pdf" "Math-Tech Journal (4).pdf" "uco-telework-covid19-agreement.pdf" "./" ".py")
+
+ ("/home/thomas/Desktop/School/programmingI/" (24466 18982 552140 288000) "../" "block1/" "block2/" "./")
+
+ ("/home/thomas/Desktop/auto-encoder/main/__pycache__/" (24454 7537 831345 114000) "../" "evaluate.cpython-37.pyc" "tools.cpython-37.pyc" "dataset.cpython-37.pyc" "classifiers.cpython-37.pyc" "FeedForward.cpython-37.pyc" "autoencoder.cpython-37.pyc" "MLP.cpython-37.pyc" "./" "utils.cpython-37.pyc")
+
+ ("/home/thomas/Desktop/AncientTechGame/scripts/" (24457 3669 775998 587000) "../" "utils.gd" "ModuleCraft.gd" "Module.gd" "./")
+
+ ("/home/thomas/Desktop/AncientTechGame/" (24457 6403 677542 329000) "../" ".import/" "icon.png.import" "instances/" "icon.png" "scripts/" "test_material.tres" "something.shader" "default_env.tres" "scenes/" "project.godot" "./")
+
+ ("/home/thomas/Desktop/MagicGame/res/shaders/" (24450 41129 64795 70000) "../" "Basic.shader" "./")
+
+ ("/home/thomas/Desktop/MagicGame/res/" (24449 3890 550928 130000) "../" "shaders/" "./")
+
+ ("/home/thomas/Desktop/MagicGame/" (24449 3975 516717 417000) "../" ".gitmodules" ".gitignore" "CMakeLists.txt" "lib/" "build/" "src/" "res/" "README.md" ".git/" "./")
+
+ ("/home/thomas/OpenGL/tutorial02_red_triangle/" (24435 49991 717465 103000) "../" "tutorial02_red_triangle" "screenshots/" "SimpleFragmentShader.fragmentshader" "SimpleVertexShader.vertexshader" "tutorial02.cpp" "./")
+
+ ("/home/thomas/Desktop/Projects/godot-4.0.0/core/math/" (24401 32444 456791 998000) "../" "rect2.h" "aabb.h" "geometry_3d.cpp" "transform.h" "random_pcg.cpp" "delaunay_2d.h" "geometry_3d.h" "quick_hull.cpp" "expression.cpp" "transform_2d.cpp" "plane.cpp" "disjoint_set.h" "triangulate.h" "random_number_generator.h" "random_pcg.h" "math_funcs.h" "delaunay_3d.h" "a_star.h" "face3.h" "math_defs.h" "basis.cpp" "math_funcs.cpp" "vector3.h" "basis.h" "math_fieldwise.cpp" "quick_hull.h" "triangle_mesh.cpp" "math_fieldwise.h" "vector2.cpp" "vector3i.cpp" "vector2.h" "plane.h" "geometry_2d.cpp" "vector3i.h" "triangle_mesh.h" "vector3.cpp" "transform_2d.h" "audio_frame.h" "expression.h" "quat.cpp" "face3.cpp" "triangulate.cpp" "random_number_generator.cpp" "rect2.cpp" "quat.h" "camera_matrix.h" "camera_matrix.cpp" "aabb.cpp" "./" "SCsub" "geometry_2d.h" "transform.cpp" "octree.h" "a_star.cpp")
+
+ ("/home/thomas/Desktop/Projects/godot-4.0.0/core/" (24401 32444 468799 529000) "../" "typedefs.h" "project_settings.h" "cowdata.h" "color_names.inc" "method_bind.cpp" "ustring.cpp" "dictionary.cpp" "error_list.h" "object.cpp" "set.h" "image.cpp" "image.h" "variant_parser.h" "string_builder.cpp" "translation.cpp" "vector.h" "register_core_types.cpp" "translation_po.h" "string_buffer.h" "safe_refcount.h" "int_types.h" "debugger/" "func_ref.cpp" "pool_allocator.h" "engine.h" "ordered_hash_map.h" "bind/" "compressed_translation.h" "ustring.h" "thread_work_pool.h" "engine.cpp" "node_path.h" "script_language.h" "error_macros.h" "callable_method_pointer.cpp" "rid_owner.cpp" "script_language.cpp" "packed_data_container.cpp" "vmap.h" "pool_allocator.cpp" "ring_buffer.h" "math/" "variant_call.cpp" "color.h" "method_bind.h" "make_binders.py" "reference.h" "array.h" "core_string_names.h" "message_queue.cpp" "color.cpp" "io/" "hashfuncs.h" "print_string.cpp" "map.h" "method_ptrcall.h" "string_name.cpp" "callable_method_pointer.h" "type_info.h" "packed_data_container.h" "node_path.cpp" "func_ref.h" "oa_hash_map.h" "project_settings.cpp" "message_queue.h" "list.h" "input/" "rid.h" "os/" "variant.h" "variant_op.cpp" "string_name.h" "rid_owner.h" "version.h" "variant.cpp" "undo_redo.h" "error_macros.cpp" "sort_array.h" "spin_lock.h" "class_db.h" "command_queue_mt.cpp" "container_type_validate.h" "string_builder.h" "simple_type.h" "print_string.h" "class_db.cpp" "self_list.h" "core_string_names.cpp" "dictionary.h" "local_vector.h" "variant_internal.h" "translation.h" "variant_parser.cpp" "command_queue_mt.h" "callable.h" "core_builders.py" "ucaps.h" "object.h" "pair.h" "global_constants.cpp" "hash_map.h" "undo_redo.cpp" "typed_array.h" "translation_po.cpp" "crypto/" "register_core_types.h" "vset.h" "compressed_translation.cpp" "resource.cpp" "safe_refcount.cpp" "./" "array.cpp" "global_constants.h" "reference.cpp" "callable.cpp" "SCsub" "object_id.h" "resource.h" "thread_work_pool.cpp")
+
+ ("/home/thomas/Desktop/Projects/godot-4.0.0/servers/rendering/" (24401 32444 877055 577000) "../" "rendering_server_globals.h" "rendering_server_canvas.cpp" "rendering_server_viewport.cpp" "rendering_server_scene.cpp" "rendering_server_globals.cpp" "rendering_server_scene.h" "rendering_server_wrap_mt.h" "rendering_device.h" "rendering_server_raster.cpp" "rasterizer.cpp" "rendering_server_canvas.h" "shader_language.h" "rendering_device_binds.h" "shader_language.cpp" "rasterizer.h" "shader_types.cpp" "rendering_device.cpp" "rendering_server_viewport.h" "rendering_server_raster.h" "rendering_device_binds.cpp" "rasterizer_rd/" "./" "SCsub" "rendering_server_wrap_mt.cpp" "shader_types.h")
+
+ ("/home/thomas/Desktop/Projects/godot-4.0.0/servers/" (24401 32444 881058 87000) "../" "audio_server.h" "xr_server.cpp" "navigation_server_2d.cpp" "physics_server_3d.cpp" "xr_server.h" "server_wrap_mt_common.h" "text_server.h" "physics_server_2d.cpp" "camera_server.h" "audio_server.cpp" "xr/" "navigation_server_3d.h" "register_server_types.cpp" "physics_server_2d.h" "navigation_server_2d.h" "rendering_server.h" "audio/" "rendering/" "register_server_types.h" "physics_server_3d.h" "camera_server.cpp" "physics_2d/" "navigation_server_3d.cpp" "camera/" "./" "physics_3d/" "rendering_server.cpp" "display_server.cpp" "SCsub" "display_server.h")
+
+ ("/home/thomas/Desktop/Projects/godot-4.0.0/" (24401 45399 246343 325000) "../" "methods.py" ".mailmap" "logo.png" "LICENSE.txt" "SConstruct" "misc/" "logo.svg" "CONTRIBUTING.md" ".clang-tidy" "DONORS.md" ".lgtm.yml" "icon.svg" ".gitignore" ".clang-format" "core/" "platform_methods.py" "platform/" "icon.png" "version.py" ".gitattributes" "scene/" ".directory" ".editorconfig" "tests/" "modules/" "CHANGELOG.md" "README.md" "thirdparty/" "glsl_builders.py" "doc/" "drivers/" "LOGO_LICENSE.md" "COPYRIGHT.txt" ".git/" ".github/" "AUTHORS.md" "servers/" "./" "main/" "editor/")
+
+ ("/home/thomas/Desktop/Projects/" (24429 27991 695079 514000) "../" "learn.lisp" "ffhq-dataset/" "AuthenticBodies/" "FungusGame/" "godot-4.0.0/" "MagicGame/" "Procedural-Generation/" "ogl-master/" "Example Networks/" "Unity Projects/" "./")
+
+ ("/home/thomas/Desktop/OpenGlTests/" (24430 23525 869344 185000) "../" "main.cpp" "dependencies/" "include/" "test.h" "test.cpp" "./" "makefile" "main")
+
+ ("/home/thomas/Desktop/test/" (24422 63490 172144 987000) "../" "main.cpp" "firstOpenGlApp" "test.cpp" "./")
+
+ ("/home/thomas/OpenGL/tutorial01_first_window/" (24422 35823 867153 678000) "../" "tutorial01.cpp" "screenshots/" "tutorial01_first_window" "./")
+
+ ("/home/thomas/OpenGL/" (24422 32359 97053 62000) "../" "Makefile" "tutorial04_colored_cube/" "misc01_math_cheatsheet/" "tutorial02_red_triangle/" "tutorial12_extensions/" "BUILDING.txt" ".gitignore" "tutorial06_keyboard_and_mouse/" "CMakeLists.txt" "tutorial09_vbo_indexing/" "tutorial07_model_loading/" "misc04_building_your_own_app/" "distrib/" "build/" "common/" "misc05_picking/" "tutorial14_render_to_texture/" "tutorial17_rotations/" "tutorial16_shadowmaps/" "tutorial15_lightmaps/" "tutorial03_matrices/" ".hgignore" "playground/" "tutorial10_transparency/" "tutorial08_basic_shading/" "tutorial18_billboards_and_particles/" "tutorial13_normal_mapping/" "tutorial11_2d_fonts/" "tutorial01_first_window/" "external/" "./" "tutorial05_textured_cube/")
+
+ ("/home/thomas/ogl-master/tutorial01_first_window/" (24422 33908 734090 483000) "../" "tutorial01.cpp" "screenshots/" "tutorial01_first_window" "./")
+
+ ("/home/thomas/ogl-master/" (24422 32359 97053 62000) "../" "Makefile" "tutorial04_colored_cube/" "misc01_math_cheatsheet/" "tutorial02_red_triangle/" "tutorial12_extensions/" "BUILDING.txt" ".gitignore" "tutorial06_keyboard_and_mouse/" "CMakeLists.txt" "tutorial09_vbo_indexing/" "tutorial07_model_loading/" "misc04_building_your_own_app/" "distrib/" "build/" "common/" "misc05_picking/" "tutorial14_render_to_texture/" "tutorial17_rotations/" "tutorial16_shadowmaps/" "tutorial15_lightmaps/" "tutorial03_matrices/" ".hgignore" "playground/" "tutorial10_transparency/" "tutorial08_basic_shading/" "tutorial18_billboards_and_particles/" "tutorial13_normal_mapping/" "tutorial11_2d_fonts/" "tutorial01_first_window/" "external/" "./" "tutorial05_textured_cube/")
+
+ ("/home/thomas/Desktop/AuthenticBodies/main/" (24373 45890 201513 533000) "../" "train.py" "./")
+
+ ("/home/thomas/Templates/" (23553 59338 675682 10000) "../" "./")
+
+ ("/home/thomas/Desktop/AuthenticBodies/" (24358 45253 461166 877000) "../" ".gitignore" "README.md" "docker-compose.yml" "datasets/" "requirements.txt" ".git/" "./" "environment.yml" "main/" "Dockerfile")
+
+ ("/home/thomas/Desktop/BeginningProgramming/" (24343 34557 411857 929000) "../" "ArraySort.java" "SixTests.class" "ArraySort.txt" "Project6.txt" "Table.class" "Shipping.class" "Factorial.txt" "Votes.java" "Loops.class" "Table.java" "Shipping.txt" "SixTests.txt" "MealTotal.class" "MealTotal.txt" "Votes.txt" "Table.txt" "SixTests.java" "Votes.class" "Loops.txt" "ToyPackage.txt" "Project6.java" "Factorial.java" "ArraySort.class" "Shipping.java" ".#Table.java" "ToyPackage.class" "MealTotal.java" "Loops.java" "ToyPackage.java" "./" "Project6.class" "Factorial.class")
+
+ ("/home/thomas/Desktop/Example Networks/progressive_growing_of_gans/" (24339 17745 745562 813000) "../" "LICENSE.txt" "util_scripts.py" "legacy.py" "misc.py" "config.py" "requirements-pip.txt" "metrics/" "networks.py" "dataset.py" "representative_image_512x256.png" "tfutil.py" "README.md" ".git/" "train.py" "dataset_tool.py" "loss.py" "./")
+
+ ("/home/thomas/Desktop/Example Networks/stylegan/" (24340 40963 389057 881000) "../" "__pycache__/" "LICENSE.txt" "karras2019stylegan-ffhq-1024x1024.pkl" "config.py" "metrics/" "dnnlib/" "pretrained_example.py" "README.md" "run_metrics.py" "requirements.txt" ".git/" "train.py" "generate_figures.py" "dataset_tool.py" "training/" "stylegan-teaser.png" "./")
+
+ ("/home/thomas/Desktop/Example Networks/" (24339 11795 661375 709000) "../" "stylegan/" "InfoGAN-CR-master/" "HoloGAN/" "ALAE-master/" "progressive_growing_of_gans/" "stylegan2/" "./")
+
+ ("/home/thomas/Desktop/stylegan2/" (24335 777 469632 880000) "../" "__pycache__/" "LICENSE.txt" "run_projector.py" "test_nvcc" ".gitignore" "test_nvcc.cu" "metrics/" "dnnlib/" "run_training.py" "README.md" "projector.py" "run_metrics.py" "docs/" ".stylegan2-cache/" "requirements.txt" ".git/" "pretrained_networks.py" "results/" "dataset_tool.py" "training/" "run_generator.py" "./" "Dockerfile")
+
+ ("/home/thomas/Desktop/HoloGAN/tools/" (24331 64724 129576 610000) "../" "rotation_utils.py" "__init__.py" "layer_utils.py" "utils.py" "ops.py" "model_utils.py" "./")
+
+ ("/home/thomas/Desktop/HoloGAN/" (24331 64724 129576 610000) "../" "main.py" "images/" ".gitignore" "model_HoloGAN.py" "tools/" "README.md" "config_HoloGAN.json" ".git/" "./")
+
+ ("/home/thomas/Desktop/InfoGAN-CR-master/" (24331 42024 576812 38000) "../" "InfoGAN-CR_3D_teapot/" "CelebA/" ".gitignore" "InfoGAN-CR_dSprites/" "FactorVAE_3D_teapot/" "README.md" "requirements.txt" "InfoGAN-CR_CelebA/" "results/" "3D_teapot/" "./" "FactorVAE_dSprites/")
+
+ ("/home/thomas/Desktop/InfoGAN-CR-master/InfoGAN-CR_3D_teapot/gan/" (24310 56945 0 0) "../" "load_data.py" "__init__.py" "latent.py" "infogan_cr.py" "sn.py" "op.py" "network.py" "metric.py" "./")
+
+ ("/home/thomas/Desktop/InfoGAN-CR-master/InfoGAN-CR_3D_teapot/" (24310 56945 0 0) "../" "main.py" "gan_task_final_metrics.py" "gan_task.py" "config.py" "gan/" "config_final_metrics.py" "./" "main_final_metrics.py")
+
+ ("/home/thomas/Desktop/ALAE-master/" (24331 21759 449042 697000) "../" "registry.py" "tracker.py" "__pycache__/" "configs/" "checkpointer.py" ".gitignore" "model.py" "model_separate.py" "dataloader.py" "losses.py" "net.py" "metrics/" "lreq.py" "style_mixing/" "lod_driver.py" "scheduler.py" "dataset_samples/" "train_alae_separate.py" "README.md" "principal_directions/" "utils.py" "align_faces.py" "requirements.txt" "make_figures/" "custom_adam.py" "train_alae.py" "launcher.py" "./" "training_artifacts/" "defaults.py" "interactive_demo.py" "dataset_preparation/")
+
+ ("/home/thomas/Desktop/projects/custom_utils/" (24250 1381 689208 825000) "../" "utils.py" "./")
+
+ ("/home/thomas/Desktop/projects/" (24250 1343 194068 359000) "../" "mal/" "tilona/" "function-game/" "research projects/" "custom_utils/" "Magic game/" "Language-Evolution-Simulation/" "authentic-bodies(0)/" "feed_forward/" "./" "authentic-bodies/")
+
+ ("/home/thomas/Desktop/Procedural-Generation/main/" (24216 11968 230217 991000) "../" "__pycache__/" "utils.pyc" "main.py" "Noise.py" "noise/" "simplex_4.py" "LSystem.py" "example.txt" "__init__.py" "imutils.py" "improved_perlin.py" "Value.py" "simplex_noise.pyc" "graphics.py" "_simplex.py" "turtle.txt" "utils.py" "pmath.py" "requirements.txt" "read_turtle.py" "graphics.pyc" "./" "Worley.py" "simplex_noise.py")
+
+ ("/home/thomas/Desktop/auto-encoder/outputs/0.001_2_25_1e-06_1/" (24223 2518 102033 966000) "../" "info.txt" "best.txt" "best_confusion.png" "model.h5" "./")
+
+ ("/home/thomas/Desktop/Procedural-Generation/assets/" (24160 32196 853887 657000) "../" "eeba9c1.png" "oak_bark.jpg" "leaf_sheep.jpg" "recipes.py" "mossy_bark.jpg" "cedar_bark.png" "3d_simplex_x_y_color.png" "129b6f1e.png" "hero_forest.jpg" "brown_bark.jpeg" "cracked_bark.jpg" "abs(math.sin((x + N*2**-1)*25)).png" "7d74a15.png" "./")
+
+ ("/home/thomas/Desktop/Little Planets/Little Planets/Assets/" (24163 20681 577417 504000) "../" "Scenes/" "TerrainFace.cs.meta" "TerrainFace.cs" "Plannet.cs.meta" "Plannet.cs" "Scenes.meta" "./")
+
+ ("/home/thomas/Desktop/Little Planets/Little Planets/" (24163 16843 999731 201000) "../" "Packages/" "Little Planets.sln" "Assets/" "Temp/" "Assembly-CSharp.csproj" "Logs/" "Library/" "ProjectSettings/" "./")
+
+ ("/home/thomas/Desktop/Little Planets/" (24163 16721 642643 164000) "../" "Little Planets/" "./")
+
+ ("/home/thomas/Desktop/Little/" (24163 16711 454552 961000) "../" "./")
+
+ ("/home/thomas/Desktop/Procedural-Generation/outputs/" (24160 32115 275073 443000) "../" "19066b02.png" "2e0a330.png" "wind.npy" "32f0ebd6.png" "3abb1629.png" "26eb0118.png" "./")
+
+ ("/home/thomas/Desktop/Magic game/Research/" (24159 24448 511720 465000) "../" "festivals.txt" "list_of_magics.org" "funeral_practices.org" "tips_and_tricks.org" "after_life_beliefs.org" "list_of_illusions.org" "./")
+
+ ("/home/thomas/Desktop/auto-encoder/datasets/premixed/" (24120 62988 88963 952000) "../" "System Volume Information/" "randomized_train_data_matrix.npy" "randomized_train_indices.npy" "train_threshold_test_IDs.txt" "ordered_train_data_matrix.npy" "ordered_test_data_matrix.npy" "ordered_threshold_annotations.npy" "randomized_threshold_indices.npy" "ordered_threshold_data_matrix.npy" "randomized_test_indices.npy" "train_threshold_test_data_split.ipynb" "randomized_threshold_annotations.npy" "randomized_threshold_data_matrix.npy" "ordered_test_annotations.npy" "randomized_test_data_matrix.npy" "randomized_train_annotations.npy" "./" "ordered_train_annotations.npy" "randomized_test_annotations.npy" ".Spotlight-V100/" ".fseventsd/")
+
+ ("/home/thomas/Desktop/Procedural-Generation/" (24152 13156 502509 112000) "../" ".gitignore" "assets/" "projects/" "README.md" "outputs/" ".git/" "resources/" "./" "main/")
+
+ ("/home/thomas/Desktop/Magic game/" (24143 15358 67501 370000) "../" "Reference Material/" "Research/" "brainstorm.org" "Magic Game/" "Content Information/" "./")
+
+ ("/home/thomas/Desktop/projects/Language-Evolution-Simulation/main/" (24135 28834 539460 744000) "../" "__pycache__/" "simplex_example.txt" "pyglet_utils.py" "main.py" "chorus.py" "improved_perlin.py" "environment.py" "utils.py" "requirements.txt" "./" "Dockerfile" "simplex_noise.py")
+
+ ("/home/thomas/Desktop/Magic game/Content Information/" (24142 1289 58150 657000) "../" "Underworld.txt" "./")
+
+ ("/home/thomas/Desktop/projects/Language-Evolution-Simulation/" (24119 38600 547839 435000) "../" ".gitignore" "assets/" "README.md" "docker-compose.yml" "outputs/" ".git/" "./" "main/")
+
+ ("/home/thomas/Desktop/Procedural-Generation/projects/" (24128 58536 838430 726000) "../" "turtle.py" "./")
+
+ ("/home/thomas/Desktop/Language-Evolution-Simulation/main/" (24126 17361 592577 896000) "../" "__pycache__/" "simplex_example.txt" "pyglet_utils.py" "main.py" "chorus.py" "improved_perlin.py" "environment.py" "utils.py" "requirements.txt" "./" "Dockerfile" "simplex_noise.py")
+
+ ("/home/thomas/Desktop/Language-Evolution-Simulation/" (24119 38600 547839 435000) "../" ".gitignore" "assets/" "README.md" "docker-compose.yml" "outputs/" ".git/" "./" "main/")
+
+ ("/home/thomas/Desktop/LES/main/" (24118 12969 429208 613000) "../" "__pycache__/" "simplex_example.txt" ".#utils.py" "main.py" "chorus.py" "improved_perlin.py" "environment.py" "utils.py" "requirements.txt" "./" "Dockerfile" "simplex_noise.py")
+
+ ("/home/thomas/Desktop/tilona/" (24107 56767 975602 605000) "../" "Makefile" "tilona/" ".gitignore" "README.md" ".git/" "./")
+
+ ("/home/thomas/Desktop/tilona/tilona/" (24107 56509 188348 984000) "../" "run.py" "./")
+
+ ("/home/thomas/Desktop/mal/python.3/" (24107 59516 267338 599000) "../" "run" "step0_repl.py" "./")
+
+ ("/home/thomas/Desktop/LES/" (24115 47175 719533 240000) "../" "docker-compose.yml" "outputs/" "./" "main/")
+
+ ("/home/thomas/Desktop/mal/" (24107 58461 376577 213000) "../" "mal/" "perl/" "scala/" "basic/" "perl6/" "php/" "elm/" "Makefile" "haskell/" "clojure/" "bash/" "go/" "skew/" "nasm/" "crystal/" "LICENSE" ".gitmodules" "fantom/" "logo/" "ts/" "erlang/" ".travis.yml" ".gitignore" "runtest-old.py" "dart/" "es6/" "python.2/" "swift3/" "jq/" "java/" "lib/" "rpython/" "ada/" "rust/" "common-lisp/" "gnu-smalltalk/" "c/" "kotlin/" "io/" "awk/" "chuck/" "groovy/" ".travis_test.sh" "process/" "r/" "racket/" "ruby/" "run_argv_test.sh" "nim/" "plpgsql/" "tests/" "vhdl/" "cs/" "runtest.py" "guile/" "haxe/" "powershell/" "swift5/" "README.md" "d/" "livescript/" "elisp/" "python.3/" "wren/" "docs/" "factor/" "rexx/" "swift/" "fsharp/" "js/" "wasm/" ".git/" "julia/" "examples/" "swift4/" "make/" "elixir/" "objc/" "yorick/" "objpascal/" "vala/" "miniMAL/" "plsql/" "ps/" "python/" "bbc-basic/" "ada.2/" "pike/" "vimscript/" "vb/" "forth/" "picolisp/" "zig/" "lua/" "ocaml/" "./" "cpp/" "tcl/" "hy/" "coffee/" "matlab/" "scheme/")
+
+ ("/home/thomas/Desktop/projects/feed_forward/main/" (24070 54299 859763 825000) "../" "__pycache__/" "./")
+
+ ("/home/thomas/Desktop/MITMATRICES/" (24089 22197 438359 552000) "../" "README.txt" "./")
+
+ ("/home/thomas/Desktop/auto-encoder/datasets/MITMATRICES/" (24093 7966 745676 939000) "../" "209m_filtered_data_matrix.mat" "223m_filtered_data_matrix.mat" "106m_filtered_data_matrix.mat" "232m_filtered_data_matrix.mat" "116m_filtered_data_matrix.mat" "System Volume Information/" "103m_filtered_data_matrix.mat" "104m_filtered_data_matrix.mat" "207m_filtered_data_matrix.mat" "214m_filtered_data_matrix.mat" "233m_filtered_data_matrix.mat" "114m_filtered_data_matrix.mat" "112m_filtered_data_matrix.mat" "230m_filtered_data_matrix.mat" "113m_filtered_data_matrix.mat" "beats_ds.npz" "203m_filtered_data_matrix.mat" "111m_filtered_data_matrix.mat" "210m_filtered_data_matrix.mat" "117m_filtered_data_matrix.mat" "105m_filtered_data_matrix.mat" "234m_filtered_data_matrix.mat" "217m_filtered_data_matrix.mat" "228m_filtered_data_matrix.mat" "221m_filtered_data_matrix.mat" "200m_filtered_data_matrix.mat" "124m_filtered_data_matrix.mat" "Original_physionet_files/" "205m_filtered_data_matrix.mat" "115m_filtered_data_matrix.mat" "109m_filtered_data_matrix.mat" "201m_filtered_data_matrix.mat" "220m_filtered_data_matrix.mat" "121m_filtered_data_matrix.mat" "100m_filtered_data_matrix.mat" "208m_filtered_data_matrix.mat" "212m_filtered_data_matrix.mat" "219m_filtered_data_matrix.mat" "122m_filtered_data_matrix.mat" "119m_filtered_data_matrix.mat" "213m_filtered_data_matrix.mat" "123m_filtered_data_matrix.mat" "231m_filtered_data_matrix.mat" "107m_filtered_data_matrix.mat" "222m_filtered_data_matrix.mat" "108m_filtered_data_matrix.mat" "202m_filtered_data_matrix.mat" "118m_filtered_data_matrix.mat" "README.txt" "101m_filtered_data_matrix.mat" "./" "215m_filtered_data_matrix.mat" "102m_filtered_data_matrix.mat" ".Spotlight-V100/" ".fseventsd/")
+
+ ("/home/thomas/Desktop/authentic-bodies/main/" (24092 1820 322010 730000) "../" "__pycache__/" "main.py" "RLS_model.py" "genrls.py" "__init__.py" "rendered_chairs.py" "requirements.txt" "./" "Dockerfile")
+
+ ("/home/thomas/.emacs_saves/" (24070 55400 726050 808000) "../" "!home!thomas!Desktop!auto-encoder!sources.txt~" "!home!thomas!Desktop!authentic-bodies!main!layers.py~" "!home!thomas!Desktop!feed_forward!selu.txt~" "!home!thomas!Desktop!feed_forward!outputs!elu.txt~" "!home!thomas!Desktop!authentic-bodies!main!genrls.py~" "!home!thomas!Desktop!authentic-bodies!main!example.py~" "!home!thomas!Desktop!authentic-bodies!utils!blacklist.txt~" "!home!thomas!Desktop!authentic-bodies!main!main_new.py~" "!home!thomas!Desktop!authentic-bodies!main!CONFIG.py~" "!home!thomas!Desktop!authentic-bodies!main!rendered_chairs.py~" "!home!thomas!Desktop!authentic-bodies!main!experiment.py~" "!home!thomas!Desktop!feed_forward!env.yml~" "!home!thomas!Desktop!authentic-bodies!utils!prepare_dataset.py~" "!home!thomas!Desktop!authentic-bodies!authentic-bodies.md~" "!home!thomas!Desktop!authentic-bodies!main!RLS-model.py~" "!home!thomas!Desktop!auto-encoder!main!pca.py~" "!home!thomas!Desktop!feed_forward!outputs!softsign.txt~" "!home!thomas!.emacs.d!init.el~" "!home!thomas!Desktop!feed_forward!outputs!softmax.txt~" "!home!thomas!.emacs.d!ido.last~" "!home!thomas!.emacs~" "!home!thomas!Desktop!function-game!main.py~" "!home!thomas!Desktop!reminders!authentic-bodies.org~" "!home!thomas!Desktop!feed_forward!environment.yml~" "!home!thomas!Desktop!authentic-bodies!main!dataset.py~" "!home!thomas!Desktop!Hyrie!main.py~" "!home!thomas!Desktop!feed_forward!main!dataset_handler.py~" "!home!thomas!.emacs.d!emacs.org~" "!home!thomas!Desktop!feed_forward!.gitignore~" "!home!thomas!Desktop!feed_forward!outputs!sigmoid.txt~" "!home!thomas!Desktop!feed_forward!outputs!leaky_relu.txt~" "!home!thomas!Desktop!feed_forward!main!main.py~" "!home!thomas!Desktop!feed_forward!docker-compose.yml~" "!home!thomas!Desktop!Magic game!brainstorm.org~" "!home!thomas!Desktop!feed_forward!outputs!relu.txt~" "!home!thomas!Desktop!authentic-bodies!authentic-bodies.org~" "!home!thomas!Desktop!feed_forward!main!requirements.txt~" "!home!thomas!Desktop!feed_forward!feed-forward.org~" "!home!thomas!Desktop!authentic-bodies!datasets!rendered_chairs!test!blacklist.txt~" "!home!thomas!Desktop!authentic-bodies!datasets!blacklist.txt~" "!home!thomas!Desktop!authentic-bodies!SOURCES.md~" "!home!thomas!Desktop!feed_forward!main!dataset.py~" "!home!thomas!Desktop!authentic-bodies!main!example-model.py~" "./" "!home!thomas!Desktop!feed_forward!outputs!hard_sigmoid.txt~" "!home!thomas!Desktop!feed_forward!main!experiment.py~")
+
+ ("/home/thomas/Desktop/authentic-bodies/" (24042 42645 661705 83000) "../" ".gitignore" "authentic-bodies.md" "README.md" "docker-compose.yml" "datasets/" "outputs/" ".outputs/" "authentic-bodies.org" "SOURCES.md" ".git/" "./" "main/")
+
+ ("/home/thomas/Desktop/authentic-bodies/datasets/rendered_chairs/" (24040 29543 708732 213000) "../" "rendered_chairs/" "./")
+
+ ("/home/thomas/Desktop/authentic-bodies/datasets/" (24040 31147 423241 720000) "../" "blacklist.txt" "rendered_chairs_old/" "rendered_chairs/" "TEST/" "mnist.npz" "./")
+
+ ("/home/thomas/Desktop/projects/feed_forward/" (24007 25219 101423 939000) "../" ".gitignore" "env.yml" "assets/" "README.md" "docker-compose.yml" "datasets/" "outputs/" ".git/" "feed-forward.org" "./" "main/")
+
+ ("/home/thomas/Desktop/feed_forward/datasets/" (23982 40073 620631 199000) "../" "dataset.npz" "indices.txt" "mnist.npz" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
