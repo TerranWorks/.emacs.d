@@ -7,5 +7,10 @@
 # Backup files
 *~
 
-# Undo-tree save-files
+# Save-files 
 *.~undo-tree
+auto-saves-list/
+.emacs_saves/
+
+# Files that I marked as disabled
+*.disabled

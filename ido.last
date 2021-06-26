@@ -49,21 +49,21 @@
  ("/" . "home/")
  ("/home/thomas/Desktop/authentic-bodies/" . "main/")
  ("/home/thomas/Desktop/" . "auto-encoder/")
- ("/home/thomas/" . "Desktop/")
+ ("/home/thomas/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/thomas/.emacs.d/"
  "/home/thomas/Desktop/auto-encoder/main/"
+ "/home/thomas/Desktop/"
  "/home/thomas/Desktop/auto-encoder/main/experiments/"
  "/home/thomas/Desktop/auto-encoder/"
  "/home/thomas/Desktop/GodotProjects/Modules/godot_voxel/"
- "/home/thomas/Desktop/"
  "/home/thomas/Desktop/pgen/res/shaders/"
  "/home/thomas/Desktop/pgen/src/"
  "/home/thomas/Desktop/School/DiscreteStructures/p03/Submission/"
  "/home/thomas/Desktop/School/DiscreteStructures/p03/"
- "/home/thomas/.emacs.d/"
  "/home/thomas/Desktop/pgen/"
  "/home/thomas/Desktop/pgen/build/"
  "/home/thomas/Desktop/School/DiscreteStructures/p02/"
@@ -108,29 +108,39 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
+ "exp2.py"
+ "exp1.py"
+ "variational.py"
+ "music.c"
+ "test.eef"
+ "autoencoder.py"
  "main.py"
  "class_rec.py"
- "autoencoder.py"
  "_autoencoder.py"
- "utils.py"
- "derelict.py"
- "_main.py"
- "_MLP.py"
- "requirements.txt"
- "_utils.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/thomas/Desktop/auto-encoder/main/" (24785 21398 799833 891000) "../" "__pycache__/" "main.py" "experiments/" "autoencoder.py" "utils.py" "_autoencoder.py" "./")
+ ("/home/thomas/" (24791 24665 168528 595000) "../" ".gconf/" ".ssh/" ".gphoto/" ".wget-hsts" ".conda/" "Miniconda3-latest-Linux-x86_64.sh" "Public/" "packages-microsoft-prod.deb" "_etemp/" "test" ".ipython/" ".googleearth/" ".putty/" ".mono/" ".ICEauthority" ".gimp-2.8/" ".nv/" ".thunderbird/" ".emacs.d/" ".mozilla/" "Downloads/" ".m2/" ".gtkrc-2.0" "_.slime/" ".clojure/" "Music/" ".java/" ".config/" ".condarc" "Pictures/" "blender_addons/" ".keras/" ".bash_logout" ".thumbnails/" "Templates/" ".defaults-0.1.0.ini" ".profile" ".gnome/" ".local/" "Videos/" ".astropy/" ".vscode/" "NVIDIA_CUDA-10.0_Samples/" ".bash_aliases" ".isos/" "OpenGL/" "Sounds/" ".sbclrc" "Unity-2019.1.0f2/" "re" "linux-install-1.10.1.561.sh" "miniconda3/" ".python_history" ".bashrc-anaconda3.bak" "NVIDIA_CUDA-11.0_Samples/" "winehq.key" ".cache/" ".vim/" "examples.desktop" ".mysql_history" ".kde/" ".wine/" ".zoom/" ".docker/" "Desktop/" "snap/" ".pki/" "Documents/" ".gitconfig" "_.mal-history" ".sudo_as_admin_successful" ".gnupg/" ".markdownNavigator/" "./" ".bash_history" "sys" "VirtualBox VMs/" ".bashrc" ".pylint.d/")
 
- ("/home/thomas/" (24787 43799 122993 564000) "../" "#!home!thomas!Downloads!NVIDIA-Linux-x86_64-450.57.run#" ".gconf/" ".quicklisp/" ".ssh/" ".gphoto/" ".wget-hsts" ".mal-history" ".PyCharmCE2019.2/" ".conda/" "#!home!thomas!.emacs.d!ido.last#" "Miniconda3-latest-Linux-x86_64.sh" "Public/" "packages-microsoft-prod.deb" "test" ".ipython/" ".googleearth/" ".putty/" ".mono/" ".ICEauthority" ".gimp-2.8/" ".nv/" ".thunderbird/" ".emacs.d/" ".mozilla/" "Downloads/" ".m2/" ".gtkrc-2.0" ".clojure/" "Music/" ".java/" ".config/" ".condarc" "Pictures/" "blender_addons/" ".keras/" ".bash_logout" ".thumbnails/" "Templates/" "#!home!thomas!Desktop!Example Networks!progressive_growing_of_gans!networks.py#" ".defaults-0.1.0.ini" ".profile" ".gnome/" ".local/" ".PyCharmCE2019.1/" "Videos/" ".vimrc" ".astropy/" ".vscode/" "NVIDIA_CUDA-10.0_Samples/" ".viminfo" ".bash_aliases" ".PyCharmCE2018.3/" ".isos/" "OpenGL/" "Sounds/" ".sbclrc" "Unity-2019.1.0f2/" "re" "java_error_in_PYCHARM_5678.log" ".slime/" "linux-install-1.10.1.561.sh" "miniconda3/" ".python_history" ".bashrc-anaconda3.bak" ".emacs_saves/" "NVIDIA_CUDA-11.0_Samples/" "winehq.key" ".cache/" "examples.desktop" ".mysql_history" ".kde/" "etemp/" ".wine/" ".zoom/" ".docker/" "#!home!thomas!Desktop!notes!Intro_to_logic.txt#" "Desktop/" "#!home!thomas!OpenGL!tutorial02_red_triangle!tutorial02.cpp#" "#!home!thomas!Desktop!codegolf.txt#" "snap/" ".pki/" "Documents/" ".gitconfig" ".sudo_as_admin_successful" ".gnupg/" ".markdownNavigator/" "./" ".bash_history" "#!home!thomas!Desktop!School!DiscreteStructures!p02!report.txt#" "sys" "VirtualBox VMs/" ".bashrc" ".pylint.d/")
+ ("/home/thomas/.emacs.d/" (24790 51687 603999 985000) "../" "elpa/" ".quicklisp/" "smex-items" ".gitignore" "init.el" "README.md" ".emacs_saves/" "ido.last" ".git/" "./" "auto-save-list/")
+
+ ("/home/thomas/Desktop/auto-encoder/main/" (24790 50626 366776 481000) "../" "__pycache__/" "experiments/" "utils.py" "exp2.py" ".emacs_saves/" "_autoencoder.py" "variational.py" "./")
+
+ ("/home/thomas/Desktop/auto-encoder/outputs/" (24790 800 349849 65000) "../" "class_rec/" ".gitignore" "evaluation.txt" "true_pred.txt" "oneclass/" "OLD/" "controls/" "results.txt" "concatclass/" "multiclass_confusion.png" "./" "exp1/")
+
+ ("/home/thomas/Desktop/auto-encoder/" (24790 904 399387 82000) "../" ".gitignore" "env.yml" "README.md" "datasets/" "outputs/" "requirements.txt" ".git/" "./" "main/")
+
+ ("/home/thomas/Desktop/" (24789 7523 327676 698000) "../" "Projects/" "Female Locomotion Pack (1)/" "test.eef" "OS_ISOS/" "School/" "Hyria/" "pgen/" "Presentation/" "auto-encoder/" "poisson-disc-sampling-8c1213c1d4817d571acaafd0239ec97f19c7e7dc.zip" "putty.exe" "GodotProjects/" "Scents/" "junk/" "PoissonDiscSampling.gd" ".emacs_saves/" "Grant Proposal/" "Female Locomotion Pack (1).zip" "balenaEtcher-1.5.120-x64.AppImage" "OpenGLProjects/" "ChatBot/" "bowgirl.glb" "music in c/" "Godot_v3.2.1-stable_x11.64" "./")
+
+ ("/home/thomas/Desktop/pgen/build/" (24719 32748 737193 592000) "../" "Makefile" "pgen" "cmake_install.cmake" "lib/" "CMakeFiles/" "./" "CMakeCache.txt")
+
+ ("/home/thomas/Desktop/pgen/src/" (24719 34673 213544 235000) "../" "main.cpp" "test.h" "ShaderLib.cpp" "./" "ShaderLib.h")
+
+ ("/home/thomas/Desktop/pgen/res/shaders/" (24719 28350 396642 837000) "../" "Basic.shader" "./" "two.shader")
 
  ("/home/thomas/Desktop/auto-encoder/main/experiments/" (24783 55636 101219 93000) "../" "concatclass.py" "class_rec.py" "oneclass.py" "control_models.py" "./")
-
- ("/home/thomas/Desktop/auto-encoder/" (24782 52773 498312 602000) "../" ".gitignore" "env.yml" "README.md" "datasets/" "outputs/" "requirements.txt" ".git/" "./" "main/")
-
- ("/home/thomas/Desktop/" (24778 63570 225887 588000) "../" "Projects/" "Female Locomotion Pack (1)/" "OS_ISOS/" "School/" "Hyria/" "pgen/" "Presentation/" "auto-encoder/" "poisson-disc-sampling-8c1213c1d4817d571acaafd0239ec97f19c7e7dc.zip" "putty.exe" "GodotProjects/" "codegolf.txt" "Scents/" "junk/" "PoissonDiscSampling.gd" "Grant Proposal/" "Female Locomotion Pack (1).zip" "balenaEtcher-1.5.120-x64.AppImage" "OpenGLProjects/" "ChatBot/" "bowgirl.glb" "Godot_v3.2.1-stable_x11.64" "./")
 
  ("/home/thomas/Desktop/GodotProjects/Modules/godot_voxel/" (24736 37252 0 0) "../" "register_types.h" ".readthedocs.yml" "streams/" "nuget.config" "storage/" ".gitignore" "terrain/" "voxel.natvis" "config.py" "constants/" "meshers/" "tests/" "LICENSE.md" "README.md" "thirdparty/" "doc/" "generators/" "edition/" "server/" ".github/" "register_types.cpp" "util/" "./" "SCsub" "editor/")
 
@@ -140,17 +150,7 @@
 
  ("/home/thomas/Desktop/pgen/" (24719 26844 447596 175000) "../" ".gitmodules" ".gitignore" "CMakeLists.txt" "lib/" "build/" "src/" "res/" "README.md" ".git/" "./")
 
- ("/home/thomas/Desktop/pgen/src/" (24719 27142 946597 208000) "../" "main.cpp" "test.h" "ShaderLib.cpp" "./" "ShaderLib.h")
-
- ("/home/thomas/Desktop/auto-encoder/outputs/" (24676 35750 244833 500000) "../" "evaluation.txt" "true_pred.txt" "oneclass/" "OLD/" "controls/" "results.txt" "multiclass_confusion.png" "./")
-
  ("/home/thomas/Desktop/School/DiscreteStructures/p02/" (24650 59868 177979 483000) "../" "output.dat" "Set.o" "p02" "temp.cpp" "p02.txt" "p02.cpp" "p02make" "p02.o" "input.dat" "a.out" "Set.h" "./" "Set.cpp")
-
- ("/home/thomas/Desktop/pgen/build/" (24698 29191 219375 475000) "../" "Makefile" "pgen" "cmake_install.cmake" "lib/" "CMakeFiles/" "./" "CMakeCache.txt")
-
- ("/home/thomas/.emacs.d/" (24700 43371 873052 726000) "../" "elpa/" "smex-items" "init.el" "ido.last" "./" "auto-save-list/")
-
- ("/home/thomas/Desktop/pgen/res/shaders/" (24698 29571 800120 935000) "../" "Basic.shader" "./" "two.shader")
 
  ("/home/thomas/Desktop/School/DiscreteStructures/p03/" (24700 43440 548777 421000) "../" "Submission/" "p03.cpp" "Submission.zip" "unsorted.dat" "sorted2.dat" "time1.dat" "sorted1.dat" "p03" "time2.dat" "./")
 

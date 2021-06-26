@@ -3,38 +3,49 @@
 ;; Disables emacs startup screen
 (setq inhibit-startup-screen t)
 
-;; Saves backups and autosaves to .emacs_saves
-(setq backup-directory-alist
-      `((".*" . , ".emacs_saves")))
-(setq auto-save-file-name-transforms
-      `((".*" , ".emacs_saves" t)))
 
-;; Disabled *Messages* 
+;; Saves backups and autosaves to .emacs_saves
+;;(setq backup-directory-alist
+;;      `((".*" . , ".emacs_saves")))
+;;(setq auto-save-file-name-transforms
+;;      `((".*" . , ".emacs_saves" t)))
+(add-to-list 'backup-directory-alist
+             (cons "." "~/.emacs.d/.emacs_saves/"))
+
+
+;; Disabled *Messages* buffer
 (setq-default message-log-max nil)
 (kill-buffer "*Messages*")
 
-;; Disabled *Completions*
+
+;; Disabled *Completions* buffer
 (add-hook 'minibuffer-exit-hook 
       '(lambda ()
          (let ((buffer "*Completions*"))
            (and (get-buffer buffer)
             (kill-buffer buffer)))))
 
-;; Emacs window opens at maximum size
+
+;; Open Emacs window at maximum size
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
+
 
 ;; Disables menu and tool bars
 (menu-bar-mode 0)
 (tool-bar-mode 0)
 
+
 ;; Enables Interactively Do Things mode
 (ido-mode 1)
+
 
 ;; Enable line numbers globally
 (global-linum-mode t)
 
+
 ;; Smex for M-x
 (global-set-key (kbd "M-x") 'smex)
+
 
 ;; Shift lines up and down
 (defun move-line-up ()
@@ -52,6 +63,7 @@
   (forward-line -1)
   (indent-according-to-mode))
 
+
 ;;custom keybinds
 (cua-mode t)
 (setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
@@ -64,14 +76,16 @@
 (global-set-key (kbd "C-f") 'isearch-forward)
 (global-set-key (kbd "C-a") 'mark-whole-buffer)
 
-
 (global-set-key [(meta up)]  'move-line-up)
 (global-set-key [(meta down)]  'move-line-down)
 
+
+;;make tabs characters visible
 (global-whitespace-mode 1)
 (setq tab-width 4)
 (setq whitespace-style '(trailing tabs tab-mark))
 (setq-default tab-width 4)
+
 
 ;;c++ mode
 (defun my-c++-mode-hook ()
@@ -81,9 +95,11 @@
 (add-hook 'c++-mode-hook 'my-c++-mode-hook)
 (add-to-list 'auto-mode-alist '("\\.shader\\'" . c++-mode))
 (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
+(add-to-list 'auto-mode-alist '("\\.c\\'" . c++-mode))
+
 
 ;;Common Lisp
-(load (expand-file-name "~/.quicklisp/slime-helper.el"))
+;;(load (expand-file-name "~/.emacs.d/.quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "sbcl")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

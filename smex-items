@@ -3,11 +3,11 @@
 (
  uncomment-region
  comment-region
- python-indent-shift-left
  indent-relative-first-indent-point
  indent-relative
  indent-region
  shell
+ untabify
 )
 
 ;; ----- smex-data -----
@@ -23,9 +23,9 @@
  (flymd-flyit . 1)
  (markdown-other-window . 4)
  (mp-preview . 3)
- (comment-region . 193)
+ (comment-region . 195)
  (global-set-key . 3)
- (uncomment-region . 152)
+ (uncomment-region . 153)
  (untabify . 15)
  (whitespace-mode . 2)
  (lisp-mode . 1)
