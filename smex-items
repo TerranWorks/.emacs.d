@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-list-packages
+ package-delete
  uncomment-region
  comment-region
- indent-relative-first-indent-point
- indent-relative
- indent-region
- shell
+ set-variable
  untabify
+ tabify
 )
 
 ;; ----- smex-data -----
@@ -23,17 +23,21 @@
  (flymd-flyit . 1)
  (markdown-other-window . 4)
  (mp-preview . 3)
- (comment-region . 195)
+ (comment-region . 198)
  (global-set-key . 3)
- (uncomment-region . 153)
- (untabify . 15)
+ (uncomment-region . 154)
+ (untabify . 16)
  (whitespace-mode . 2)
  (lisp-mode . 1)
- (tabify . 3)
+ (tabify . 4)
  (customize-group . 1)
- (python-indent-shift-right . 4)
+ (python-indent-shift-right . 5)
  (indent-region . 4)
  (indent-relative . 1)
  (indent-relative-first-indent-point . 1)
  (python-indent-shift-left . 7)
+ (edit-tab-stops . 1)
+ (set-variable . 2)
+ (package-delete . 1)
+ (package-list-packages . 1)
 )

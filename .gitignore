@@ -10,7 +10,15 @@
 # Save-files 
 *.~undo-tree
 auto-saves-list/
-.emacs_saves/
+.emacs_saves/**/*
+
+# Other files
+smex-items
+ido.last
 
 # Files that I marked as disabled
 *.disabled
+
+# always include .gitignore files
+!.gitignore
+

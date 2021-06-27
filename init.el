@@ -1,24 +1,22 @@
 ;; BASIC CUSTOMIZATION
 ;; --------------------------------------
-;; Disables emacs startup screen
-(setq inhibit-startup-screen t)
 
+(add-to-list 'load-path (expand-file-name "lib/borg" user-emacs-directory))
+(require 'borg)
+(borg-initialize)
 
-;; Saves backups and autosaves to .emacs_saves
-;;(setq backup-directory-alist
-;;      `((".*" . , ".emacs_saves")))
-;;(setq auto-save-file-name-transforms
-;;      `((".*" . , ".emacs_saves" t)))
-(add-to-list 'backup-directory-alist
-             (cons "." "~/.emacs.d/.emacs_saves/"))
+(setq inhibit-startup-screen t) ;; Disable startup screen
+(setq inhibit-startup-message t) ;; Disable startup message
+(menu-bar-mode 0) ;; Disable menubar
+(tool-bar-mode 0) ;; Disable toolbar
+(global-linum-mode t) ;; Enable line numbers globally
 
-
-;; Disabled *Messages* buffer
+;; Disables *Messages* buffer
 (setq-default message-log-max nil)
 (kill-buffer "*Messages*")
 
 
-;; Disabled *Completions* buffer
+;; Disables *Completions* buffer
 (add-hook 'minibuffer-exit-hook 
       '(lambda ()
          (let ((buffer "*Completions*"))
@@ -26,67 +24,40 @@
             (kill-buffer buffer)))))
 
 
+;; Saves backups and autosaves to .emacs_saves
+(add-to-list 'backup-directory-alist
+             (cons "." "~/.emacs.d/.emacs_saves/"))
+
+
 ;; Open Emacs window at maximum size
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 
-;; Disables menu and tool bars
-(menu-bar-mode 0)
-(tool-bar-mode 0)
-
-
-;; Enables Interactively Do Things mode
-(ido-mode 1)
-
-
-;; Enable line numbers globally
-(global-linum-mode t)
-
-
-;; Smex for M-x
-(global-set-key (kbd "M-x") 'smex)
-
-
-;; Shift lines up and down
-(defun move-line-up ()
-  "Move up the current line."
-  (interactive)
-  (transpose-lines 1)
-  (forward-line -2)
-  (indent-according-to-mode))
-
-(defun move-line-down ()
-  "Move down the current line."
-  (interactive)
-  (forward-line 1)
-  (transpose-lines 1)
-  (forward-line -1)
-  (indent-according-to-mode))
-
-
-;;custom keybinds
+;; Cua settings
 (cua-mode t)
 (setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
 (transient-mark-mode 1) ;; No region when it is not highlighted
 (setq cua-keep-region-after-copy t) ;; Standard Windows behaviour
 
-(setq-default indent-tabs-mode nil)
+
+;; custom keybinds
 (global-set-key (kbd "C-q") 'shell)
 (global-set-key (kbd "C-s") 'save-buffer)
 (global-set-key (kbd "C-f") 'isearch-forward)
 (global-set-key (kbd "C-a") 'mark-whole-buffer)
 
-(global-set-key [(meta up)]  'move-line-up)
-(global-set-key [(meta down)]  'move-line-down)
 
-
-;;make tabs characters visible
+;;Tabs
+(electric-indent-mode 0)
+(setq-default tab-width 4) ;;set number of character spaces equal to one tab
+;;(setq-default indent-tabs-mode nil) ;;use spaces instead of tabs
+(require 'whitespace)
 (global-whitespace-mode 1)
-(setq tab-width 4)
-(setq whitespace-style '(trailing tabs tab-mark))
-(setq-default tab-width 4)
+(setq whitespace-style '(trailing tabs tab-mark)) ;;make tabs characters visible
 
 
+;; MODE CUSTOMIZATION
+;; --------------------------------------
 ;;c++ mode
 (defun my-c++-mode-hook ()
   (setq tab-width 4)
@@ -98,16 +69,21 @@
 (add-to-list 'auto-mode-alist '("\\.c\\'" . c++-mode))
 
 
-;;Common Lisp
-;;(load (expand-file-name "~/.emacs.d/.quicklisp/slime-helper.el"))
-(setq inferior-lisp-program "sbcl")
+;; MODULE CUSTOMIZATION
+;; --------------------------------------
+;; Enables Interactively Do Things mode
+(ido-mode 1)
+
+;; Smex for M-x
+(global-set-key (kbd "M-x") 'smex)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(indent-tabs-mode nil)
- '(tab-stop-list (quote (4))))
+ '(package-selected-packages
+   (quote
+	(vmd-mode smex py-autopep8 org material-theme markdown-mode+ jedi flymd flycheck elpy ein better-defaults))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

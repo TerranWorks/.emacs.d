@@ -55,8 +55,8 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/thomas/.emacs.d/"
- "/home/thomas/Desktop/auto-encoder/main/"
  "/home/thomas/Desktop/"
+ "/home/thomas/Desktop/auto-encoder/main/"
  "/home/thomas/Desktop/auto-encoder/main/experiments/"
  "/home/thomas/Desktop/auto-encoder/"
  "/home/thomas/Desktop/GodotProjects/Modules/godot_voxel/"
@@ -108,31 +108,31 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "README.md"
  "init.el"
+ "ido.last"
+ "temp.py"
+ "variational.py"
+ "test.py"
  "exp2.py"
  "exp1.py"
- "variational.py"
  "music.c"
  "test.eef"
- "autoencoder.py"
- "main.py"
- "class_rec.py"
- "_autoencoder.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/thomas/" (24791 24665 168528 595000) "../" ".gconf/" ".ssh/" ".gphoto/" ".wget-hsts" ".conda/" "Miniconda3-latest-Linux-x86_64.sh" "Public/" "packages-microsoft-prod.deb" "_etemp/" "test" ".ipython/" ".googleearth/" ".putty/" ".mono/" ".ICEauthority" ".gimp-2.8/" ".nv/" ".thunderbird/" ".emacs.d/" ".mozilla/" "Downloads/" ".m2/" ".gtkrc-2.0" "_.slime/" ".clojure/" "Music/" ".java/" ".config/" ".condarc" "Pictures/" "blender_addons/" ".keras/" ".bash_logout" ".thumbnails/" "Templates/" ".defaults-0.1.0.ini" ".profile" ".gnome/" ".local/" "Videos/" ".astropy/" ".vscode/" "NVIDIA_CUDA-10.0_Samples/" ".bash_aliases" ".isos/" "OpenGL/" "Sounds/" ".sbclrc" "Unity-2019.1.0f2/" "re" "linux-install-1.10.1.561.sh" "miniconda3/" ".python_history" ".bashrc-anaconda3.bak" "NVIDIA_CUDA-11.0_Samples/" "winehq.key" ".cache/" ".vim/" "examples.desktop" ".mysql_history" ".kde/" ".wine/" ".zoom/" ".docker/" "Desktop/" "snap/" ".pki/" "Documents/" ".gitconfig" "_.mal-history" ".sudo_as_admin_successful" ".gnupg/" ".markdownNavigator/" "./" ".bash_history" "sys" "VirtualBox VMs/" ".bashrc" ".pylint.d/")
+ ("/home/thomas/.emacs.d/" (24792 55178 879449 845000) "../" "elpa/" "smex-items" ".gitignore" "init.el" "README.md" ".emacs_saves/" "ido.last" ".git/" "./")
 
- ("/home/thomas/.emacs.d/" (24790 51687 603999 985000) "../" "elpa/" ".quicklisp/" "smex-items" ".gitignore" "init.el" "README.md" ".emacs_saves/" "ido.last" ".git/" "./" "auto-save-list/")
+ ("/home/thomas/" (24792 53923 682862 245000) "../" ".gconf/" ".ssh/" ".gphoto/" ".wget-hsts" ".conda/" "Miniconda3-latest-Linux-x86_64.sh" "Public/" "packages-microsoft-prod.deb" "test" ".ipython/" ".googleearth/" ".putty/" ".mono/" ".ICEauthority" ".gimp-2.8/" ".nv/" ".thunderbird/" ".emacs.d/" ".mozilla/" "Downloads/" ".m2/" ".gtkrc-2.0" ".clojure/" "Music/" ".java/" ".config/" ".condarc" "Pictures/" "blender_addons/" ".keras/" ".bash_logout" ".thumbnails/" "Templates/" ".defaults-0.1.0.ini" ".profile" ".gnome/" ".local/" "Videos/" ".astropy/" ".vscode/" "NVIDIA_CUDA-10.0_Samples/" ".bash_aliases" ".isos/" "OpenGL/" "Sounds/" ".sbclrc" "Unity-2019.1.0f2/" "re" "linux-install-1.10.1.561.sh" "miniconda3/" ".python_history" ".bashrc-anaconda3.bak" "NVIDIA_CUDA-11.0_Samples/" "winehq.key" ".cache/" ".vim/" "examples.desktop" ".mysql_history" ".kde/" ".wine/" ".zoom/" ".docker/" "Desktop/" "snap/" ".pki/" "Documents/" ".gitconfig" ".sudo_as_admin_successful" ".gnupg/" ".markdownNavigator/" "./" ".bash_history" "sys" "VirtualBox VMs/" ".bashrc" ".pylint.d/")
 
- ("/home/thomas/Desktop/auto-encoder/main/" (24790 50626 366776 481000) "../" "__pycache__/" "experiments/" "utils.py" "exp2.py" ".emacs_saves/" "_autoencoder.py" "variational.py" "./")
+ ("/home/thomas/Desktop/" (24792 505 101380 684000) "../" "Projects/" "Female Locomotion Pack (1)/" "test.eef" "OS_ISOS/" "School/" "Hyria/" "pgen/" "Presentation/" "auto-encoder/" "putty.exe" "GodotProjects/" "Scents/" "junk/" "PoissonDiscSampling.gd" ".emacs_saves/" "temp.py~" "Grant Proposal/" "balenaEtcher-1.5.120-x64.AppImage" "OpenGLProjects/" "temp.py" "ChatBot/" "bowgirl.glb" "music in c/" "Godot_v3.2.1-stable_x11.64" "./")
+
+ ("/home/thomas/Desktop/auto-encoder/main/" (24791 64051 640312 481000) "../" "__pycache__/" "experiments/" "utils.py" "exp2.py" "_autoencoder.py" "variational.py" "./")
 
  ("/home/thomas/Desktop/auto-encoder/outputs/" (24790 800 349849 65000) "../" "class_rec/" ".gitignore" "evaluation.txt" "true_pred.txt" "oneclass/" "OLD/" "controls/" "results.txt" "concatclass/" "multiclass_confusion.png" "./" "exp1/")
 
  ("/home/thomas/Desktop/auto-encoder/" (24790 904 399387 82000) "../" ".gitignore" "env.yml" "README.md" "datasets/" "outputs/" "requirements.txt" ".git/" "./" "main/")
-
- ("/home/thomas/Desktop/" (24789 7523 327676 698000) "../" "Projects/" "Female Locomotion Pack (1)/" "test.eef" "OS_ISOS/" "School/" "Hyria/" "pgen/" "Presentation/" "auto-encoder/" "poisson-disc-sampling-8c1213c1d4817d571acaafd0239ec97f19c7e7dc.zip" "putty.exe" "GodotProjects/" "Scents/" "junk/" "PoissonDiscSampling.gd" ".emacs_saves/" "Grant Proposal/" "Female Locomotion Pack (1).zip" "balenaEtcher-1.5.120-x64.AppImage" "OpenGLProjects/" "ChatBot/" "bowgirl.glb" "music in c/" "Godot_v3.2.1-stable_x11.64" "./")
 
  ("/home/thomas/Desktop/pgen/build/" (24719 32748 737193 592000) "../" "Makefile" "pgen" "cmake_install.cmake" "lib/" "CMakeFiles/" "./" "CMakeCache.txt")
 
