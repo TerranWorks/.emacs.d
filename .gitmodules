@@ -1,3 +1,13 @@
 [submodule "borg"]
 	path = lib/borg
 	url = https://github.com/emacscollective/borg.git
+[submodule "emacsql"]
+	no-byte-compile = emacsql-pg.el
+	path = lib/emacsql
+	url = https://github.com/skeeto/emacsql.git
+[submodule "closql"]
+	path = lib/closql
+	url = https://github.com/emacscollective/closql.git
+[submodule "epkg"]
+	path = lib/epkg
+	url = https://github.com/emacscollective/epkg.git
