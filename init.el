@@ -1,10 +1,23 @@
 ;; BASIC CUSTOMIZATION
 ;; --------------------------------------
 
+;; Borg
 (add-to-list 'load-path (expand-file-name "lib/borg" user-emacs-directory))
 (require 'borg)
 (borg-initialize)
 
+(setq borg-rewrite-urls-alist
+      '(("git@github.com:" . "https://github.com/")
+        ("git@gitlab.com:" . "https://gitlab.com/")))
+
+(with-eval-after-load 'magit
+  (magit-add-section-hook 'magit-status-sections-hook
+                          'magit-insert-modules
+                          'magit-insert-stashes
+                          'append))
+
+
+;; Vanilla Emacs
 (setq inhibit-startup-screen t) ;; Disable startup screen
 (setq inhibit-startup-message t) ;; Disable startup message
 (menu-bar-mode 0) ;; Disable menubar
