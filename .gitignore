@@ -16,8 +16,8 @@ auto-saves-list/
 smex-items
 ido.last
 
-# Files that I marked as disabled
-*.disabled
+# Files that want ignored(useful for testing)
+*.ignore
 
 # always include .gitignore files
 !.gitignore
