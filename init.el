@@ -2,23 +2,51 @@
 ;; --------------------------------------
 
 ;; Borg
-;;(setq package-enable-at-startup nil)
+(setq package-enable-at-startup nil)
 ;;(setq epkg-repository "~/.emacs.d/lib/epkg")
-;;(setq emacsql-sqlite-data-root "~/emacs.d/lib/emacsql")
 
-(add-to-list 'load-path (expand-file-name "lib/borg" user-emacs-directory))
-(require 'borg)
-(borg-initialize)
+;;(add-to-list 'load-path (expand-file-name "lib/borg" user-emacs-directory))
+;;(require 'borg)
+;;(borg-initialize)
 
-(setq borg-rewrite-urls-alist
-      '(("git@github.com:" . "https://github.com/")
-        ("git@gitlab.com:" . "https://gitlab.com/")))
 
-(with-eval-after-load 'magit
-  (magit-add-section-hook 'magit-status-sections-hook
-                          'magit-insert-modules
-                          'magit-insert-stashes
-                          'append))
+(eval-and-compile ; `borg'
+  (add-to-list 'load-path (expand-file-name "lib/borg" user-emacs-directory))
+  (require 'borg)
+  (borg-initialize))
+
+;;(progn ;    `use-package'
+;;(require  'use-package)
+;;(setq use-package-verbose t)
+
+
+(setq epkg-repository
+  (expand-file-name "lib/epkg" user-emacs-directory))
+
+
+;;(with-eval-after-load 'magit
+;;  (magit-add-section-hook 'magit-status-sections-hook
+;;                          'magit-insert-modules
+;;                          'magit-insert-stashes
+;;                          'append))
+
+;;(add-to-list 'load-path (expand-file-name "lib/emacsql" user-emacs-directory))
+;;(borg-activate epkg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ;; Vanilla Emacs Config
