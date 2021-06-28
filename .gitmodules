@@ -4,7 +4,40 @@
 [submodule "closql"]
 	path = lib/closql
 	url = git@github.com:emacscollective/closql.git
+[submodule "dash"]
+	path = lib/dash
+	url = git@github.com:magnars/dash.el.git
 [submodule "emacsql"]
 	path = lib/emacsql
 	url = git@github.com:skeeto/emacsql.git
 	no-byte-compile = emacsql-pg.el
+[submodule "epkg"]
+	path = lib/epkg
+	url = git@github.com:emacscollective/epkg.git
+[submodule "htmlize"]
+	path = lib/htmlize
+	url = git@github.com:hniksic/emacs-htmlize.git
+[submodule "impatient-mode"]
+	path = lib/impatient-mode
+	url = git@github.com:skeeto/impatient-mode.git
+[submodule "magit"]
+	path = lib/magit
+	url = git@github.com:magit/magit.git
+[submodule "no-littering"]
+	path = lib/no-littering
+	url = git@github.com:emacscollective/no-littering.git
+[submodule "simple-httpd"]
+	path = lib/simple-httpd
+	url = git@github.com:skeeto/emacs-web-server.git
+[submodule "swiper"]
+	path = lib/swiper
+	url = https://github.com/abo-abo/swiper.git
+[submodule "transient"]
+	path = lib/transient
+	url = git@github.com:magit/transient.git
+[submodule "use-package"]
+	path = lib/use-package
+	url = git@github.com:jwiegley/use-package.git
+[submodule "with-editor"]
+	path = lib/with-editor
+	url = git@github.com:magit/with-editor.git

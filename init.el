@@ -3,51 +3,56 @@
 
 ;; Borg
 (setq package-enable-at-startup nil)
-;;(setq epkg-repository "~/.emacs.d/lib/epkg")
-
-;;(add-to-list 'load-path (expand-file-name "lib/borg" user-emacs-directory))
-;;(require 'borg)
-;;(borg-initialize)
-
 
 (eval-and-compile ; `borg'
   (add-to-list 'load-path (expand-file-name "lib/borg" user-emacs-directory))
   (require 'borg)
   (borg-initialize))
 
-;;(progn ;    `use-package'
-;;(require  'use-package)
-;;(setq use-package-verbose t)
+
+;; (progn ;    `;;use-package'
+;;   (require  'use-package)
+;;   (setq use-package-verbose t))
+
+(eval-when-compile
+  (add-to-list 'load-path (expand-file-name "lib/use-package" user-emacs-directory))
+  (require 'use-package))
 
 
-(setq epkg-repository
-  (expand-file-name "lib/epkg" user-emacs-directory))
+(use-package epkg
+  :defer t
+  :init (setq epkg-repository
+              (expand-file-name "var/epkgs/" user-emacs-directory)))
 
 
-;;(with-eval-after-load 'magit
-;;  (magit-add-section-hook 'magit-status-sections-hook
-;;                          'magit-insert-modules
-;;                          'magit-insert-stashes
-;;                          'append))
-
-;;(add-to-list 'load-path (expand-file-name "lib/emacsql" user-emacs-directory))
-;;(borg-activate epkg)
-
-
-
+(use-package ivy
+  :config
+  (require 'ivy)
+  (ivy-mode 1)
+  (setq ivy-use-virtual-buffers t)
+  (setq ivy-count-format "(%d/%d) ")
+  (global-set-key (kbd "C-s") 'swiper-isearch)
+  (global-set-key (kbd "M-x") 'counsel-M-x)
+  (global-set-key (kbd "C-x C-f") 'counsel-find-file))
 
 
+(use-package magit
+  :defer t
+  :commands (magit-add-section-hook)
+  :config
+  (magit-add-section-hook 'magit-status-sections-hook
+                          'magit-insert-modules
+                          'magit-insert-stashes
+                          'append))
 
 
+(use-package no-littering)
 
 
-
-
-
-
-
-
-
+(defun markdown-html (buffer)
+  (princ (with-current-buffer buffer
+    (format "<!DOCTYPE html><html><title>Impatient Markdown</title><xmp theme=\"united\" style=\"display:none;\"> %s  </xmp><script src=\"http://strapdownjs.com/v/0.2/strapdown.js\"></script></html>" (buffer-substring-no-properties (point-min) (point-max))))
+  (current-buffer)))
 
 ;; Vanilla Emacs Config
 (setq inhibit-startup-screen t) ;; Disable startup screen
@@ -77,21 +82,6 @@
 ;; Open Emacs window at maximum size
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-
-;; Cua settings
-;;(cua-mode t)
-;;(setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
-;;(transient-mark-mode 1) ;; No region when it is not highlighted
-;;(setq cua-keep-region-after-copy t) ;; Standard Windows behaviour
-
-
-;; custom keybinds
-;;(global-set-key (kbd "C-q") 'shell)
-;;(global-set-key (kbd "C-s") 'save-buffer)
-;;(global-set-key (kbd "C-f") 'isearch-forward)
-;;(global-set-key (kbd "C-a") 'mark-whole-buffer)
-
-
 ;;Tabs
 ;;(electric-indent-mode 0)
 ;;(setq-default tab-width 4) ;;set number of character spaces equal to one tab
@@ -112,9 +102,3 @@
 ;;(add-to-list 'auto-mode-alist '("\\.shader\\'" . c++-mode))
 ;;(add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
 ;;(add-to-list 'auto-mode-alist '("\\.c\\'" . c++-mode))
-
-
-;; MODULE CUSTOMIZATION
-;; --------------------------------------
-;; Enables Interactively Do Things mode
-;;(ido-mode 1)

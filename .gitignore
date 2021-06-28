@@ -22,4 +22,8 @@ ido.last
 # always include .gitignore files
 !.gitignore
 
+
+var/
+dir
+
 /epkgs/
