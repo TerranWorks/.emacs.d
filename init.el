@@ -1,6 +1,42 @@
 ;; BASIC CUSTOMIZATION
 ;; --------------------------------------
 
+
+(progn ;  startup
+  (setq user-init-file (or load-file-name buffer-file-name))
+  (setq user-emacs-directory (file-name-directory user-init-file))
+  (when (< emacs-major-version 27)
+    (setq package-enable-at-startup nil)
+    (load-file (expand-file-name "early-init.el" user-emacs-directory)))
+  (setq inhibit-startup-buffer-menu t)
+  (setq inhibit-startup-screen t)
+  (setq inhibit-startup-message t)
+  (setq inhibit-startup-echo-area-message "locutus")
+  (setq initial-buffer-choice t)
+  (setq initial-scratch-message "")
+  (when (fboundp 'scroll-bar-mode) (scroll-bar-mode 0))
+  (when (fboundp 'tool-bar-mode) (tool-bar-mode 0))
+  (when (fboundp 'menu-bar-mode) (menu-bar-mode 0))
+  (global-linum-mode t))
+
+
+;; Disables *Messages* buffer
+(setq-default message-log-max nil)
+(kill-buffer "*Messages*")
+
+
+;; Disables *Completions* buffer
+(add-hook 'minibuffer-exit-hook 
+      '(lambda ()
+         (let ((buffer "*Completions*"))
+           (and (get-buffer buffer)
+            (kill-buffer buffer)))))
+
+
+;; Open Emacs window at maximum size
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+
 ;; Borg
 (setq package-enable-at-startup nil)
 
@@ -10,13 +46,13 @@
   (borg-initialize))
 
 
-;; (progn ;    `;;use-package'
+(eval-when-compile
+ (add-to-list 'load-path (expand-file-name "lib/use-package" user-emacs-directory))
+ (require 'use-package))
+
+;; (progn ;    `use-package'
 ;;   (require  'use-package)
 ;;   (setq use-package-verbose t))
-
-(eval-when-compile
-  (add-to-list 'load-path (expand-file-name "lib/use-package" user-emacs-directory))
-  (require 'use-package))
 
 
 (use-package epkg
@@ -49,46 +85,44 @@
 (use-package no-littering)
 
 
-(defun markdown-html (buffer)
-  (princ (with-current-buffer buffer
-    (format "<!DOCTYPE html><html><title>Impatient Markdown</title><xmp theme=\"united\" style=\"display:none;\"> %s  </xmp><script src=\"http://strapdownjs.com/v/0.2/strapdown.js\"></script></html>" (buffer-substring-no-properties (point-min) (point-max))))
-  (current-buffer)))
+;;Markdown
 
-;; Vanilla Emacs Config
-(setq inhibit-startup-screen t) ;; Disable startup screen
-(setq inhibit-startup-message t) ;; Disable startup message
-(menu-bar-mode 0) ;; Disable menubar
-(tool-bar-mode 0) ;; Disable toolbar
-(global-linum-mode t) ;; Enable line numbers globally
+(use-package markdown-mode
+;;  :ensure t
+  :mode ("\\.md\\'" . gfm-mode)
+  :commands (markdown-mode gfm-mode)
+  ;;:config
+  ;;(setq markdown-command "pandoc -t html5")
+  )
 
-;; Disables *Messages* buffer
-(setq-default message-log-max nil)
-(kill-buffer "*Messages*")
+(use-package simple-httpd
+;;  :ensure t
+  :config
+  (setq httpd-port 7070)
+  (setq httpd-host (system-name)))
 
+(use-package impatient-mode
+;;  :ensure t
+  :commands impatient-mode)
 
-;; Disables *Completions* buffer
-(add-hook 'minibuffer-exit-hook 
-      '(lambda ()
-         (let ((buffer "*Completions*"))
-           (and (get-buffer buffer)
-            (kill-buffer buffer)))))
+(defun my-markdown-filter (buffer)
+  (princ
+   (with-temp-buffer
+     (let ((tmp (buffer-name)))
+       (set-buffer buffer)
+       (set-buffer (markdown tmp))
+       (format "<!DOCTYPE html><html><title>Markdown preview</title><link rel=\"stylesheet\" href = \"https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css\"/>
+<body><article class=\"markdown-body\" style=\"box-sizing: border-box;min-width: 200px;max-width: 980px;margin: 0 auto;padding: 45px;\">%s</article></body></html>" (buffer-string))))
+   (current-buffer)))
 
-
-;; Saves backups and autosaves to .emacs_saves
-(add-to-list 'backup-directory-alist
-             (cons "." "~/.emacs.d/.emacs_saves/"))
-
-
-;; Open Emacs window at maximum size
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
-
-;;Tabs
-;;(electric-indent-mode 0)
-;;(setq-default tab-width 4) ;;set number of character spaces equal to one tab
-;;(setq-default indent-tabs-mode nil) ;;use spaces instead of tabs
-;;(require 'whitespace)
-;;(global-whitespace-mode 1)
-;;(setq whitespace-style '(trailing tabs tab-mark)) ;;make tabs characters visible
+(defun my-markdown-preview ()
+  "Preview markdown."
+  (interactive)
+  (unless (process-status "httpd")
+    (httpd-start))
+  (impatient-mode)
+  (imp-set-user-filter 'my-markdown-filter)
+  (imp-visit-buffer))
 
 
 ;; MODE CUSTOMIZATION
