@@ -1,3 +1,6 @@
+[submodule "auto-compile"]
+	path = lib/auto-compile
+	url = git@github.com:emacscollective/auto-compile.git
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:emacscollective/borg.git
@@ -17,6 +20,9 @@
 [submodule "htmlize"]
 	path = lib/htmlize
 	url = git@github.com:hniksic/emacs-htmlize.git
+[submodule "hydra"]
+	path = lib/hydra
+	url = git@github.com:abo-abo/hydra.git
 [submodule "impatient-mode"]
 	path = lib/impatient-mode
 	url = git@github.com:skeeto/impatient-mode.git
@@ -29,6 +35,15 @@
 [submodule "no-littering"]
 	path = lib/no-littering
 	url = git@github.com:emacscollective/no-littering.git
+[submodule "packed"]
+	path = lib/packed
+	url = git@github.com:emacscollective/packed.git
+[submodule "pandoc"]
+	path = lib/pandoc
+	url = git@github.com:zonuexe/pandoc.el.git
+[submodule "pandoc-mode"]
+	path = lib/pandoc-mode
+	url = git@github.com:joostkremers/pandoc-mode.git
 [submodule "simple-httpd"]
 	path = lib/simple-httpd
 	url = git@github.com:skeeto/emacs-web-server.git

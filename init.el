@@ -87,13 +87,14 @@
 
 ;;Markdown
 
+(use-package pandoc)
+
 (use-package markdown-mode
 ;;  :ensure t
   :mode ("\\.md\\'" . gfm-mode)
-  :commands (markdown-mode gfm-mode)
-  ;;:config
-  ;;(setq markdown-command "pandoc -t html5")
-  )
+  :commands (markdown markdown-mode gfm-mode)
+  :config
+  (setq markdown-command "pandoc -t html5"))
 
 (use-package simple-httpd
 ;;  :ensure t
@@ -103,7 +104,7 @@
 
 (use-package impatient-mode
 ;;  :ensure t
-  :commands impatient-mode)
+  :commands impatient-mode imp-set-user-filter imp-visit-buffer)
 
 (defun my-markdown-filter (buffer)
   (princ
@@ -123,6 +124,11 @@
   (impatient-mode)
   (imp-set-user-filter 'my-markdown-filter)
   (imp-visit-buffer))
+
+
+(use-package tramp
+  :config
+  (setq tramp-default-method "ssh"))
 
 
 ;; MODE CUSTOMIZATION

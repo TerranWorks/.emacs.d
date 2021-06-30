@@ -7,7 +7,7 @@
 	- ivy
 	- councel
 - use-package
-
+- Markdown live preview with pandoc
 
 ## TODO:
 - Override use-package-ensure-function to work with borg
@@ -16,6 +16,6 @@
 	- Fixed column width marker
 - evil mode?
 - org mode
-- Markdown live preview
 - Change yes/no to y/n
-- Change completions message
+- Internal webpage
+- Remote file editing with tramp
