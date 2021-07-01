@@ -44,6 +44,12 @@
 [submodule "pandoc-mode"]
 	path = lib/pandoc-mode
 	url = git@github.com:joostkremers/pandoc-mode.git
+[submodule "python-black"]
+	path = lib/python-black
+	url = git@github.com:wbolster/emacs-python-black.git
+[submodule "reformatter"]
+	path = lib/reformatter
+	url = git@github.com:purcell/emacs-reformatter.git
 [submodule "simple-httpd"]
 	path = lib/simple-httpd
 	url = git@github.com:skeeto/emacs-web-server.git

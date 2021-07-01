@@ -48,11 +48,9 @@
 
 (eval-when-compile
  (add-to-list 'load-path (expand-file-name "lib/use-package" user-emacs-directory))
- (require 'use-package))
-
-;; (progn ;    `use-package'
-;;   (require  'use-package)
-;;   (setq use-package-verbose t))
+ (require 'use-package)
+ ;;(advice-add 'use-package-ensure-function :override #'borg-assimilate)
+ )
 
 
 (use-package epkg
@@ -90,20 +88,20 @@
 (use-package pandoc)
 
 (use-package markdown-mode
-;;  :ensure t
+  ;;:ensure t
   :mode ("\\.md\\'" . gfm-mode)
   :commands (markdown markdown-mode gfm-mode)
   :config
   (setq markdown-command "pandoc -t html5"))
 
 (use-package simple-httpd
-;;  :ensure t
+  ;;:ensure t
   :config
   (setq httpd-port 7070)
   (setq httpd-host (system-name)))
 
 (use-package impatient-mode
-;;  :ensure t
+  ;;:ensure t
   :commands impatient-mode imp-set-user-filter imp-visit-buffer)
 
 (defun my-markdown-filter (buffer)
