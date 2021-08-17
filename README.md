@@ -1,5 +1,10 @@
 # TerranWorks emacs configuration.
 
+## Setup
+
+    make bootstrap-borg
+    make bootstrap
+
 ## Included features:
 - borg
 - nolittering
