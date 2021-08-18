@@ -17,6 +17,8 @@
 	- builtin with markdown mode
 
 ## TODO:
+- Restructured Text mode
+- Some kind of spell checker
 - Override use-package-ensure-function to work with borg
 - Rebind dird to avoid accidently opening a bunch of buffers
 - Work on python-mode
