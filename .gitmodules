@@ -1,6 +1,9 @@
 [submodule "auto-compile"]
 	path = lib/auto-compile
 	url = git@github.com:emacscollective/auto-compile.git
+[submodule "blacken"]
+	path = lib/blacken
+	url = git@github.com:pythonic-emacs/blacken.git
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:emacscollective/borg.git
