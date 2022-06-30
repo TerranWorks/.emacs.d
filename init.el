@@ -124,6 +124,7 @@
   (imp-visit-buffer))
 
 
+;; Tramp
 (use-package tramp
   :config
   (setq tramp-default-method "ssh"))
@@ -140,3 +141,6 @@
 ;;(add-to-list 'auto-mode-alist '("\\.shader\\'" . c++-mode))
 ;;(add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
 ;;(add-to-list 'auto-mode-alist '("\\.c\\'" . c++-mode))
+
+;;Javascript
+(setq js-indent-level 2)
