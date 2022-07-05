@@ -19,6 +19,8 @@
   (when (fboundp 'menu-bar-mode) (menu-bar-mode 0))
   (global-linum-mode t))
 
+;; Delete selected text when typing 
+(delete-selection-mode 1)
 
 ;; Disables *Messages* buffer
 (setq-default message-log-max nil)
