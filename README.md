@@ -1,5 +1,8 @@
 # TerranWorks emacs configuration.
 
+## Requirements
+- Pandoc
+
 ## Setup
 
     make bootstrap-borg
