@@ -19,6 +19,7 @@
   (when (fboundp 'menu-bar-mode) (menu-bar-mode 0))
   (global-linum-mode t))
 
+<<<<<<< HEAD
 ;;;; Defaults
 
 ;; Customize tabs
@@ -34,6 +35,10 @@
 (setq c-basic-offset 4)
 (c-set-offset 'comment-intro 0)
 
+=======
+;; Delete selected text when typing 
+(delete-selection-mode 1)
+>>>>>>> refs/remotes/origin/main
 
 ;; Disables *Messages* buffer
 (setq-default message-log-max nil)
