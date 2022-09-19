@@ -1,15 +1,24 @@
 [submodule "auto-compile"]
 	path = lib/auto-compile
 	url = git@github.com:emacscollective/auto-compile.git
+[submodule "avy"]
+	path = lib/avy
+	url = git@github.com:abo-abo/avy.git
 [submodule "blacken"]
 	path = lib/blacken
 	url = git@github.com:pythonic-emacs/blacken.git
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:emacscollective/borg.git
+[submodule "clang-format"]
+	path = lib/clang-format
+	url = git@github.com:emacsmirror/clang-format.git
 [submodule "closql"]
 	path = lib/closql
 	url = git@github.com:emacscollective/closql.git
+[submodule "compat"]
+	path = lib/compat
+	url = https://git.sr.ht/~pkal/compat
 [submodule "dash"]
 	path = lib/dash
 	url = git@github.com:magnars/dash.el.git
@@ -20,6 +29,15 @@
 [submodule "epkg"]
 	path = lib/epkg
 	url = git@github.com:emacscollective/epkg.git
+[submodule "flycheck"]
+	path = lib/flycheck
+	url = git@github.com:flycheck/flycheck.git
+[submodule "flycheck-aspell"]
+	path = lib/flycheck-aspell
+	url = git@github.com:leotaku/flycheck-aspell.git
+[submodule "fountain-mode"]
+	path = lib/fountain-mode
+	url = git@github.com:rnkn/fountain-mode.git
 [submodule "htmlize"]
 	path = lib/htmlize
 	url = git@github.com:hniksic/emacs-htmlize.git
@@ -29,6 +47,8 @@
 [submodule "impatient-mode"]
 	path = lib/impatient-mode
 	url = git@github.com:skeeto/impatient-mode.git
+[submodule "lib/prettier"]
+	url = git@github.com:jscheid/prettier.el.git
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:magit/magit.git
@@ -65,8 +85,3 @@
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:magit/with-editor.git
-[submodule "lib/prettier"]
-	url = git@github.com:jscheid/prettier.el.git
-[submodule "compat"]
-	path = lib/compat
-	url = https://git.sr.ht/~pkal/compat
