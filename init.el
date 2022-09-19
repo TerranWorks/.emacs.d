@@ -19,6 +19,21 @@
   (when (fboundp 'menu-bar-mode) (menu-bar-mode 0))
   (global-linum-mode t))
 
+;;;; Defaults
+
+;; Customize tabs
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width-4)
+
+
+
+;;temp
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
+(setq c-default-style "linux")
+(setq c-basic-offset 4)
+(c-set-offset 'comment-intro 0)
+
 
 ;; Disables *Messages* buffer
 (setq-default message-log-max nil)
@@ -26,11 +41,11 @@
 
 
 ;; Disables *Completions* buffer
-(add-hook 'minibuffer-exit-hook 
-      '(lambda ()
-         (let ((buffer "*Completions*"))
-           (and (get-buffer buffer)
-            (kill-buffer buffer)))))
+(add-hook 'minibuffer-exit-hook
+(lambda ()
+(let ((buffer "*Completions*"))
+(and (get-buffer buffer)
+(kill-buffer buffer)))))
 
 
 ;; Open Emacs window at maximum size
@@ -47,8 +62,8 @@
 
 
 (eval-when-compile
- (add-to-list 'load-path (expand-file-name "lib/use-package" user-emacs-directory))
- (require 'use-package)
+  (add-to-list 'load-path (expand-file-name "lib/use-package" user-emacs-directory))
+  (require 'use-package)
  ;;(advice-add 'use-package-ensure-function :override #'borg-assimilate)
  )
 
@@ -81,6 +96,11 @@
 
 
 (use-package no-littering)
+
+
+(use-package clang-format
+  :config
+  (global-set-key [C-M-tab] 'clang-format-region))
 
 
 ;;Markdown
@@ -130,17 +150,19 @@
   (setq tramp-default-method "ssh"))
 
 
-;; MODE CUSTOMIZATION
-;; --------------------------------------
-;;c++ mode
-;;(defun my-c++-mode-hook ()
-;;  (setq tab-width 4)
-;;  (setq c-basic-offset 4)
-;;  (c-set-offset 'substatement-open 0))
-;;(add-hook 'c++-mode-hook 'my-c++-mode-hook)
-;;(add-to-list 'auto-mode-alist '("\\.shader\\'" . c++-mode))
-;;(add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
-;;(add-to-list 'auto-mode-alist '("\\.c\\'" . c++-mode))
+;; Flyspell
+;; (use-package flyspell
+;;   :custom
+;;   (ispell-program-name "aspell")
+;;   (aspell-dictionary "en_US")
+;;   (aspell-program-name "/usr/bin/aspell")
+;;   (ispell-dictionary "en_US")
+;;   (ispell-program-name "/usr/bin/aspell"))
 
-;;Javascript
-(setq js-indent-level 2)
+
+;; Fountain
+(use-package fountain-mode
+  :commands fountain-mode
+  :mode ("\\.fountain\\'" . fountain-mode)
+  :hook ((fountain-mode . visual-line-mode)))
+
